@@ -1,0 +1,2327 @@
+---
+title: "Flood Malawi - 2015"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+    css: style/style.css
+    source_code: embed
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+library(flexdashboard)
+library(data.table)
+library(tidyverse)
+library(raster)
+library(pander)
+library(missMDA)
+library(plotly)
+library(DT)
+library(mapview)
+```
+
+Home
+=======================================================================
+
+<div id="bg">
+  <img src="image/home11.jpg" alt="">
+</div>
+
+
+Agriculture {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=15}
+# Read data
+dataAgriculture <- fread("data2/Indicators/agriculture-and-rural-development_mwi.csv")
+
+# Depuration data
+dataAgriculture %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataAgriculture2
+
+# Filtering code with number of observations less to 10
+dataAgriculture2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataAgriculture2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataAgriculture2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataAgriculture2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+ 
+# New data with filters
+dataAgriculture2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) ->
+  dataAgriculture3
+
+ggplotly(
+  dataAgriculture3 %>% 
+  ggplot(data = ., aes(x = Year, y = Value)) +
+  facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+  geom_line() +
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=15}
+ggplotly(
+  dataAgriculture3 %>% 
+  filter(Year >= 2000) %>% 
+  ggplot(data = ., aes(x = Year, y = Value)) +
+  facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+  geom_line() +
+  geom_vline(xintercept = 2015, lty = 2) +
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=15}
+ggplotly(
+  dataAgriculture3 %>% 
+  ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+  facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "Set1") +
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_rect(fill = "black"),
+        legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=15}
+ggplotly(
+  dataAgriculture3 %>% 
+  filter(Year >= 2000) %>% 
+  ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+  facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "Set1") +
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_rect(fill = "black"),
+        legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=15}
+ggplotly(
+  dataAgriculture3 %>% 
+  group_by(IndicatorCode, Group) %>% 
+  summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+  ungroup() %>% 
+  ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+  facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+  geom_col() +
+  scale_fill_brewer(palette = "Set1") +
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_rect(fill = "black"),
+        legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=15}
+ggplotly(
+  dataAgriculture3 %>% 
+  filter(Year >= 2000) %>% 
+  group_by(IndicatorCode, Group) %>% 
+  summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+  ungroup() %>% 
+  ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+  facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+  geom_col() +
+  scale_fill_brewer(palette = "Set1") +
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_rect(fill = "black"),
+        legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataAgriculture3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+     dom = 'Bfrtip',
+     buttons = c('csv', 'excel', 'pdf')))
+```
+
+
+### Indicator names and indicators code
+
+```{r}
+dataAgriculture3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+     dom = 'Bfrtip',
+     buttons = c('csv', 'excel', 'pdf')))
+```
+
+Humanitarian aid {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=25}
+# Read data
+dataHumanitarianAid <- fread("data2/Indicators/aid-effectiveness_mwi.csv")
+
+# Depuration data
+dataHumanitarianAid %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataHumanitarianAid2
+
+# Filtering code with number of observations less to 10
+dataHumanitarianAid2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataHumanitarianAid2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataHumanitarianAid2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataHumanitarianAid2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# New data with filters
+dataHumanitarianAid2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) ->
+  dataHumanitarianAid3
+
+ggplotly(
+  dataHumanitarianAid3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataHumanitarianAid3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataHumanitarianAid3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataHumanitarianAid3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataHumanitarianAid3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataHumanitarianAid3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataHumanitarianAid3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataHumanitarianAid3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Education {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=25}
+# Read data
+dataEducation <- fread("data2/Indicators/education_mwi.csv")
+
+# Depuration data
+dataEducation %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataEducation2
+
+# Filtering code with number of observations less to 10
+dataEducation2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataEducation2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataEducation2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataEducation2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# Filter by number data in indicator
+dataEducation2 %>% 
+  group_by(IndicatorCode, Group) %>% 
+  count() %>% 
+  ungroup() %>% 
+  filter(n < 5) %>% 
+  pull(IndicatorCode) ->
+  filterN
+
+# New data with filters
+dataEducation2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) %>% 
+  filter(!(IndicatorCode %in% filterN)) ->
+  dataEducation3
+
+ggplotly(
+  dataEducation3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEducation3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEducation3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEducation3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEducation3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEducation3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataEducation3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataEducation3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Environment {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=25}
+# Read data
+dataEnvironment <- fread("data2/Indicators/environment_mwi.csv")
+
+# Depuration data
+dataEnvironment %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataEnvironment2
+
+# Filtering code with number of observations less to 10
+dataEnvironment2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataEnvironment2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataEnvironment2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataEnvironment2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# New data with filters
+dataEnvironment2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) ->
+  dataEnvironment3
+
+ggplotly(
+  dataEnvironment3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEnvironment3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEnvironment3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEnvironment3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEnvironment3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataEnvironment3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataEnvironment3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataEnvironment3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Gender equality {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=25}
+# Read data
+dataGender <- fread("data2/Indicators/gender_mwi.csv")
+
+# Depuration data
+dataGender %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataGender2
+
+# Filtering code with number of observations less to 10
+dataGender2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataGender2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataGender2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataGender2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# Filter by number data in indicator
+dataGender2 %>% 
+  group_by(IndicatorCode, Group) %>% 
+  count() %>% 
+  ungroup() %>% 
+  filter(n < 5) %>% 
+  pull(IndicatorCode) ->
+  filterN
+
+# New data with filters
+dataGender2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) %>% 
+  filter(!(IndicatorCode %in% filterN)) ->
+  dataGender3
+
+ggplotly(
+  dataGender3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataGender3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataGender3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataGender3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataGender3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataGender3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataGender3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataGender3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Poverty {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=12}
+# Read data
+dataPoverty <- fread("data2/Indicators/poverty_mwi.csv")
+
+# Depuration data
+dataPoverty %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataPoverty2
+
+ggplotly(
+  dataPoverty2 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataPoverty2 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataPoverty2 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataPoverty2 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataPoverty2 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataPoverty2 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataPoverty2 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataPoverty2 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Social development {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=12}
+# Read data
+dataSocial <- fread("data2/Indicators/social-development_mwi.csv")
+
+# Depuration data
+dataSocial %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataSocial2
+
+# Filtering code with number of observations less to 10
+dataSocial2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataSocial2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataSocial2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataSocial2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# New data with filters
+dataSocial2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) ->
+  dataSocial3
+
+ggplotly(
+  dataSocial3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataSocial3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataSocial3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataSocial3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataSocial3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataSocial3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataSocial3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataSocial3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Food security {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=12}
+# Read data
+dataFood <- fread("data2/Indicators/suite-of-food-security-indicators_mwi.csv")
+
+# Depuration data
+dataFood %>% 
+  dplyr::select(Year,
+                IndicatorName = Item,
+                IndicatorCode = `Item Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataFood2
+
+# Filtering code with number of observations less to 10
+dataFood2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataFood2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataFood2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataFood2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# New data with filters
+dataFood2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) ->
+  dataFood3
+
+ggplotly(
+  dataFood3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+)
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataFood3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataFood3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataFood3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataFood3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataFood3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataFood3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataFood3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Urban development {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=25}
+# Read data
+dataUrban <- fread("data2/Indicators/urban-development_mwi.csv")
+
+# Depuration data
+dataUrban %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataUrban2
+
+# Filtering code with number of observations less to 10
+dataUrban2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataUrban2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataUrban2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataUrban2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# New data with filters
+dataUrban2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) ->
+  dataUrban3
+
+ggplotly(
+  dataUrban3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataUrban3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataUrban3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataUrban3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataUrban3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataUrban3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataUrban3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataUrban3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Human development {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=12}
+# Read data
+dataHuman <- fread("data2/Indicators/hdro_indicators_mwi.csv")
+
+# Depuration data
+dataHuman %>% 
+  dplyr::select(Year = `#date+year`,
+                IndicatorName = `#indicator+name`,
+                IndicatorCode = `#indicator+code`,
+                Value = `#indicator+value+num`) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataHuman2
+
+# Filtering code with number of observations less to 10
+dataHuman2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataHuman2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataHuman2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataHuman2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# New data with filters
+dataHuman2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) ->
+  dataHuman3
+
+ggplotly(
+  dataHuman3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataHuman3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataHuman3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataHuman3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataHuman3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=12}
+ggplotly(
+  dataHuman3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataHuman3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataHuman3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+Socioeconomic {data-navmenu="Indicators"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Temporal variation (all years)
+
+```{r, fig.width=9, fig.height=25}
+# Read data
+dataSocioeconomics <- fread("data2/Indicators/indicators_mwi.csv")
+
+# Depuration data
+dataSocioeconomics %>% 
+  dplyr::select(Year,
+                IndicatorName = `Indicator Name`,
+                IndicatorCode = `Indicator Code`,
+                Value) %>% 
+  slice(-1) %>% 
+  mutate(Year = as.numeric(Year),
+         Value = as.numeric(Value),
+         IndicatorName = as.factor(IndicatorName),
+         IndicatorCode = as.factor(IndicatorCode),
+         Group = if_else(Year < 2015, true = "Before Flood", false = "After Flood"),
+         Group = factor(Group,
+                        levels = c("Before Flood", "After Flood"))) ->
+  dataSocioeconomics2
+
+# Filtering code with number of observations less to 10
+dataSocioeconomics2 %>%
+  group_by(IndicatorCode) %>% 
+  count() %>%
+  filter(n <= 10) %>% 
+  pull(IndicatorCode) ->
+  filterCode
+
+# Filtering indicators with standar desviation equal to 0 (without variation)
+dataSocioeconomics2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(StandDesv = sd(Value, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  filter(StandDesv == 0) %>% 
+  pull(IndicatorCode) ->
+  filterSD
+
+# Filtering indicators only with information before and after of flood 2015
+dataSocioeconomics2 %>%
+  filter(Value == 0) %>% 
+  pull(IndicatorCode) ->
+  filterZero
+
+# Filter with maximun year
+dataSocioeconomics2 %>% 
+  group_by(IndicatorCode) %>% 
+  summarise(MaxYear = max(Year)) %>% 
+  ungroup() %>% 
+  filter(MaxYear < 2015) %>% 
+  pull(IndicatorCode) ->
+  filterYear
+
+# Filter by number data in indicator
+dataEducation2 %>% 
+  group_by(IndicatorCode, Group) %>% 
+  count() %>% 
+  ungroup() %>% 
+  filter(n > 38) %>% 
+  pull(IndicatorCode) ->
+  filterN
+
+# New data with filters
+dataSocioeconomics2 %>% 
+  filter(!(IndicatorCode %in% filterCode)) %>% 
+  filter(!(IndicatorCode %in% filterSD)) %>% 
+  filter(!(IndicatorCode %in% filterZero)) %>% 
+  filter(!(IndicatorCode %in% filterYear)) %>% 
+  filter(IndicatorCode %in% filterN) ->
+  dataSocioeconomics3
+
+ggplotly(
+  dataSocioeconomics3 %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"))
+) 
+```
+
+### Temporal variation (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataSocioeconomics3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Year, y = Value)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_line() +
+    geom_vline(xintercept = 2015, lty = 2) +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black")) 
+)
+```
+
+### Before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataSocioeconomics3 %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataSocioeconomics3 %>% 
+    filter(Year >= 2000) %>% 
+    ggplot(data = ., aes(x = Group, y = Value, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (all years)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataSocioeconomics3 %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none") 
+)
+```
+
+### Median before vs after flood (century XXI)
+
+```{r, fig.width=9, fig.height=25}
+ggplotly(
+  dataSocioeconomics3 %>% 
+    filter(Year >= 2000) %>% 
+    group_by(IndicatorCode, Group) %>% 
+    summarise(Median = round(median(Value, na.rm = TRUE), digits = 1)) %>% 
+    ungroup() %>% 
+    ggplot(data = ., aes(x = Group, y = Median, fill = Group)) +
+    facet_wrap(facets = ~IndicatorCode, scales = "free", ncol = 4) +
+    geom_col() +
+    scale_fill_brewer(palette = "Set1") +
+    theme_light() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          strip.background = element_rect(fill = "black"),
+          legend.position = "none")
+) 
+```
+
+### Descriptive Summary
+
+```{r}
+dataSocioeconomics3 %>% 
+  group_by(IndicatorName, Group) %>% 
+  summarise(Average = round(mean(Value, na.rm = TRUE), digits = 2),
+            `Standard Deviation` = round(sd(Value, na.rm = TRUE), digits = 2),
+            Minimum = round(min(Value, na.rm = TRUE), digits = 2),
+            Maximum = round(max(Value, na.rm = TRUE), digits = 2),
+            N = n()) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+### Indicator names and indicators code
+
+```{r}
+dataSocioeconomics3 %>% 
+  dplyr::select(IndicatorName, IndicatorCode) %>% 
+  distinct(IndicatorName, IndicatorCode) %>% 
+  datatable(extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf')))
+```
+
+
+Flood 2015 {data-navmenu="Maps"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Terrasarx
+
+```{r, fig.width=9}
+flood2015Terra <- shapefile("data2/GeoSpatial/terrasarx/flood_terrasarx_bydlr.shp")
+mapView(flood2015Terra)
+```
+
+### Radarsat2
+
+```{r, fig.width=9}
+flood2015Radarsat2 <- shapefile("data2/GeoSpatial/radarsat2/flood_radarsat2.shp")
+mapView(flood2015Radarsat2)
+```
+
+Healthsites {data-navmenu="Maps"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Region
+
+```{r, fig.width=9, fig.align="center", warning=FALSE, message=FALSE}
+# Data csv
+healthSites <- read.csv("data2/GeoSpatial/healthsites/csv/malawi.csv")
+
+# Obtain map with package raster
+mapMalawi <- getData(name = "GADM", country = "MWI", level = 1,
+                     download = TRUE)
+
+# Map with ggplot2
+mapMalawi2  <- fortify(mapMalawi)
+mapMalawi2 %>% 
+  ggplot(data = ., aes(x = long, y = lat)) +
+  geom_polygon(mapping = aes(group = group), fill = "white", color = "black") +
+  coord_map() +
+  geom_point(data = healthSites, 
+             mapping = aes(x = X, y = Y, color = amenity)) +
+  theme_void() +
+  scale_color_brewer(palette = "Set1")
+```
+
+### City
+
+```{r, fig.width=9, fig.align="center", warning=FALSE, message=FALSE}
+# Obtain map with package raster
+mapMalawiCitys <- getData(name = "GADM", country = "MWI", level = 2,
+                     download = TRUE)
+
+# Map with ggplot2
+mapMalawiCity2  <- fortify(mapMalawiCitys)
+mapMalawiCity2 %>% 
+  ggplot(data = ., aes(x = long, y = lat)) +
+  geom_polygon(mapping = aes(group = group), fill = "white", color = "black") +
+  coord_map() +
+  geom_point(data = healthSites, 
+             mapping = aes(x = X, y = Y, color = amenity)) +
+  theme_void() +
+  scale_color_brewer(palette = "Set1")
+```
+
+National Vulnerability Index {data-navmenu="Maps"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+```{r, fig.align="center", fig.width=9}
+# Raster population
+indexVulnerability <- raster("data2/GeoSpatial/vulnerabilityIndex/malawi_national_vulnerability_index.tif")
+
+# Data as dataframe
+valIndex <- getValues(indexVulnerability)
+coordinatesIndex <- as.data.frame(coordinates(indexVulnerability))
+dataIndex <- data.frame(long = coordinatesIndex$x,
+                             lat = coordinatesIndex$y,
+                             index = valIndex)
+
+# Graphic with ggplot
+dataIndex %>% 
+  filter(!is.na(index)) %>% 
+  mutate(GroupIndex = cut(index, breaks = 5)) ->
+  dataIndex2
+mapMalawiCity2 %>% 
+  ggplot(data = ., aes(x = long, y = lat)) +
+  geom_polygon(mapping = aes(group = group), fill = "white", color = "black") +
+  coord_map() +
+  geom_point(data = dataIndex2, 
+             mapping = aes(x = long, y = lat, color = GroupIndex),
+             alpha = 0.02) +
+  theme_void() +
+  labs(color = "Vulnerability") +
+  guides(colour = guide_legend(override.aes = list(alpha = 1))) +
+  scale_color_brewer(palette = "Set1")
+```
+
+Methodology {data-navmenu="Documentation"}
+=======================================================================
+
+Column
+-------------------------------------
+
+- **Indicators:**
+    - Graph each of the variables of the socioeconomic indicators over time with the intention of observing their behavior (variation) temporal.
+    - Three types of graphs are presented: one that shows the temporal variation, in addition to boxplots and bar graphs that allow choosing the variation between groups based on the median.
+    - The variables were divided into two groups: one before 2015 (before the flood) and after 2015 in order to observe the impact of the phenomenon.
+    - A separate analysis of the 20th century and the 21st century was carried out.
+    - A descriptive table is presented for each socioeconomic indicator.
+    - For data debugging, remove variables that do not vary by years and data with values equal to zero.
+    - In the case of indicators that have more than 70 variables, eliminate those with a low number of records, in order to better visualize them.
+- **Flood 2015 (GeoSpatial):**
+    - Two interactive flood maps for 2015 are presented with terrasarx and radarsat2 databases, which allow the user to better interact and visualize the flooded areas.
+    - The distribution of health sites by region and city in Malawi is shown.
+    - A national vulnerability map in Malawi is presented. These data were classified into five categories to facilitate their visualization.
+
+Packages R {data-navmenu="Documentation"}
+=======================================================================
+
+Column
+-------------------------------------
+
+- [Documentation `data.table`](https://cran.r-project.org/web/packages/data.table/data.table.pdf)
+- [Documentation `tidyverse`](https://cran.r-project.org/web/packages/tidyverse/tidyverse.pdf)
+- [Documentation `raster`](https://cran.r-project.org/web/packages/raster/raster.pdf)
+- [Documentation `pander`](https://cran.r-project.org/web/packages/pander/pander.pdf)
+- [Documentation `missMDA`](https://cran.r-project.org/web/packages/missMDA/missMDA.pdf)
+- [Documentation `plotly`](https://cran.r-project.org/web/packages/plotly/plotly.pdf)
+- [Documentation `DT`](https://cran.r-project.org/web/packages/DT/DT.pdf)
+- [Documentation `mapView`](https://cran.r-project.org/web/packages/mapview/mapview.pdf)
+
+```{r, warning=FALSE, message=FALSE}
+library(data.table)
+library(tidyverse)
+library(raster)
+library(pander)
+library(missMDA)
+library(plotly)
+library(DT)
+library(mapview)
+```
+
+Code Github and Rpubs {data-navmenu="Documentation"}
+=======================================================================
+
+Column
+-------------------------------------
+
+- [Repository Github](https://github.com/Edimer/VisualizationFlood)
+
+Links Data {data-navmenu="Documentation"}
+=======================================================================
+
+Column {.tabset}
+-------------------------------------
+
+### Indicators
+
+- https://data.humdata.org/dataset/faostat-food-security-indicators-for-malawi
+- https://data.humdata.org/dataset/world-bank-combined-indicators-for-malawi#
+- https://data.humdata.org/dataset/world-bank-poverty-indicators-for-malawi
+- https://data.humdata.org/dataset/world-bank-environment-indicators-for-malawi#
+- https://data.humdata.org/dataset/world-bank-education-indicators-for-malawi#
+- https://data.humdata.org/dataset/world-bank-gender-indicators-for-malawi
+- https://data.humdata.org/dataset/world-bank-urban-development-indicators-for-malawi
+- https://data.humdata.org/dataset/world-bank-social-development-indicators-for-malawi#
+- https://data.humdata.org/dataset/hdro-data-for-malawi
+- https://data.humdata.org/dataset/world-bank-aid-effectiveness-indicators-for-malawi
+- https://data.humdata.org/dataset/world-bank-agriculture-and-rural-development-indicators-for-malawi#
+
+### Flood (Geospatial)
+
+- https://data.humdata.org/dataset/malawi-floods-2015-flood-extent
+- https://data.humdata.org/dataset/malawi-healthsites
+- https://data.humdata.org/dataset/malawi_national_vulnerability_index_2015
+- https://data.humdata.org/dataset/worldpop-malawi-age-and-sex-structures
+- https://data.humdata.org/dataset/worldpop-malawi-population
