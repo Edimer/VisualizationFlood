@@ -1,0 +1,572 @@
+Country Name,Country ISO3,Year,Indicator Name,Indicator Code,Value
+#country+name,#country+code,#date+year,#indicator+name,#indicator+code,#indicator+value+num
+Malawi,MWI,2010,Urban land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.UR.K2,0
+Malawi,MWI,2000,Urban land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.UR.K2,0
+Malawi,MWI,1990,Urban land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.UR.K2,0
+Malawi,MWI,2010,Urban land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.UR.ZS,0
+Malawi,MWI,2000,Urban land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.UR.ZS,0
+Malawi,MWI,1990,Urban land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.UR.ZS,0
+Malawi,MWI,2010,Urban land area (sq. km),AG.LND.TOTL.UR.K2,1815.103394
+Malawi,MWI,2000,Urban land area (sq. km),AG.LND.TOTL.UR.K2,1815.103394
+Malawi,MWI,1990,Urban land area (sq. km),AG.LND.TOTL.UR.K2,1815.103394
+Malawi,MWI,2017,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,57.5
+Malawi,MWI,2016,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,42
+Malawi,MWI,2015,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,48.7
+Malawi,MWI,2014,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,46.1
+Malawi,MWI,2013,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,36.6
+Malawi,MWI,2012,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,37.1
+Malawi,MWI,2011,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,32.6
+Malawi,MWI,2010,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,34.7
+Malawi,MWI,2009,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,36.7473640441895
+Malawi,MWI,2008,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,35.5764350891113
+Malawi,MWI,2007,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,34.4184837341309
+Malawi,MWI,2006,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,23.5679214402619
+Malawi,MWI,2005,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,32.1418991088867
+Malawi,MWI,2004,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,30.2
+Malawi,MWI,2003,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,37.14606
+Malawi,MWI,2002,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,28.8235931396484
+Malawi,MWI,2001,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,27.7339916229248
+Malawi,MWI,2000,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,28.7
+Malawi,MWI,1999,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,25.5477905273438
+Malawi,MWI,1998,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,24.4400787353516
+Malawi,MWI,1997,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,23.3152179718018
+Malawi,MWI,1996,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,22.1692066192627
+Malawi,MWI,1995,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,21.0042724609375
+Malawi,MWI,1994,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,19.8242015838623
+Malawi,MWI,1993,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,18.6327781677246
+Malawi,MWI,1992,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,19.8
+Malawi,MWI,2017,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,23.5659214726087
+Malawi,MWI,2016,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,23.09261541974
+Malawi,MWI,2015,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,24.5374293154571
+Malawi,MWI,2014,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,25.1982288421354
+Malawi,MWI,2013,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,24.6834787826944
+Malawi,MWI,2012,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,25.7384015112371
+Malawi,MWI,2011,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,25.1650089099494
+Malawi,MWI,2010,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,25.6961984013482
+Malawi,MWI,2005,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,25.6274060210907
+Malawi,MWI,2000,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,26.142085677818
+Malawi,MWI,1995,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,26.3895054532159
+Malawi,MWI,1990,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,26.4690293625451
+Malawi,MWI,2017,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2016,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2015,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2014,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2013,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2012,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2011,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2010,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2005,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2000,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,1995,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,1990,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,100
+Malawi,MWI,2018,Population density (people per sq. km of land area),EN.POP.DNST,192.440761561307
+Malawi,MWI,2017,Population density (people per sq. km of land area),EN.POP.DNST,187.423207467119
+Malawi,MWI,2016,Population density (people per sq. km of land area),EN.POP.DNST,182.491397963513
+Malawi,MWI,2015,Population density (people per sq. km of land area),EN.POP.DNST,177.612462876538
+Malawi,MWI,2014,Population density (people per sq. km of land area),EN.POP.DNST,172.778319898176
+Malawi,MWI,2013,Population density (people per sq. km of land area),EN.POP.DNST,168.002428935087
+Malawi,MWI,2012,Population density (people per sq. km of land area),EN.POP.DNST,163.300859142978
+Malawi,MWI,2011,Population density (people per sq. km of land area),EN.POP.DNST,158.698684768774
+Malawi,MWI,2010,Population density (people per sq. km of land area),EN.POP.DNST,154.217352566822
+Malawi,MWI,2009,Population density (people per sq. km of land area),EN.POP.DNST,149.853150190921
+Malawi,MWI,2008,Population density (people per sq. km of land area),EN.POP.DNST,145.607658039881
+Malawi,MWI,2007,Population density (people per sq. km of land area),EN.POP.DNST,141.512579550276
+Malawi,MWI,2006,Population density (people per sq. km of land area),EN.POP.DNST,137.60817776835
+Malawi,MWI,2005,Population density (people per sq. km of land area),EN.POP.DNST,133.919728468392
+Malawi,MWI,2004,Population density (people per sq. km of land area),EN.POP.DNST,130.481947390751
+Malawi,MWI,2003,Population density (people per sq. km of land area),EN.POP.DNST,127.282361052185
+Malawi,MWI,2002,Population density (people per sq. km of land area),EN.POP.DNST,124.243360203649
+Malawi,MWI,2001,Population density (people per sq. km of land area),EN.POP.DNST,121.25583368689
+Malawi,MWI,2000,Population density (people per sq. km of land area),EN.POP.DNST,118.251569792109
+Malawi,MWI,1999,Population density (people per sq. km of land area),EN.POP.DNST,115.128574459058
+Malawi,MWI,1998,Population density (people per sq. km of land area),EN.POP.DNST,111.925519728468
+Malawi,MWI,1997,Population density (people per sq. km of land area),EN.POP.DNST,108.876813746288
+Malawi,MWI,1996,Population density (people per sq. km of land area),EN.POP.DNST,106.308750530335
+Malawi,MWI,1995,Population density (people per sq. km of land area),EN.POP.DNST,104.41679041154
+Malawi,MWI,1994,Population density (people per sq. km of land area),EN.POP.DNST,103.369643614765
+Malawi,MWI,1993,Population density (people per sq. km of land area),EN.POP.DNST,102.994601187951
+Malawi,MWI,1992,Population density (people per sq. km of land area),EN.POP.DNST,102.736243105643
+Malawi,MWI,1991,Population density (people per sq. km of land area),EN.POP.DNST,101.82811837081
+Malawi,MWI,1990,Population density (people per sq. km of land area),EN.POP.DNST,99.7507424692406
+Malawi,MWI,1989,Population density (people per sq. km of land area),EN.POP.DNST,96.2619007212558
+Malawi,MWI,1988,Population density (people per sq. km of land area),EN.POP.DNST,91.6068095036063
+Malawi,MWI,1987,Population density (people per sq. km of land area),EN.POP.DNST,86.3507212558337
+Malawi,MWI,1986,Population density (people per sq. km of land area),EN.POP.DNST,81.315135765804
+Malawi,MWI,1985,Population density (people per sq. km of land area),EN.POP.DNST,77.0923525668222
+Malawi,MWI,1984,Population density (people per sq. km of land area),EN.POP.DNST,73.8715210012728
+Malawi,MWI,1983,Population density (people per sq. km of land area),EN.POP.DNST,71.4671616461604
+Malawi,MWI,1982,Population density (people per sq. km of land area),EN.POP.DNST,69.6434556639796
+Malawi,MWI,1981,Population density (people per sq. km of land area),EN.POP.DNST,68.0142554094188
+Malawi,MWI,1980,Population density (people per sq. km of land area),EN.POP.DNST,66.2965634280866
+Malawi,MWI,1979,Population density (people per sq. km of land area),EN.POP.DNST,64.4409736953755
+Malawi,MWI,1978,Population density (people per sq. km of land area),EN.POP.DNST,62.5462982605006
+Malawi,MWI,1977,Population density (people per sq. km of land area),EN.POP.DNST,60.6486317352567
+Malawi,MWI,1976,Population density (people per sq. km of land area),EN.POP.DNST,58.8210755197285
+Malawi,MWI,1975,Population density (people per sq. km of land area),EN.POP.DNST,57.1149236317353
+Malawi,MWI,1974,Population density (people per sq. km of land area),EN.POP.DNST,55.5268667798048
+Malawi,MWI,1973,Population density (people per sq. km of land area),EN.POP.DNST,54.0237908358082
+Malawi,MWI,1972,Population density (people per sq. km of land area),EN.POP.DNST,52.5938587187102
+Malawi,MWI,1971,Population density (people per sq. km of land area),EN.POP.DNST,51.2207254985151
+Malawi,MWI,1970,Population density (people per sq. km of land area),EN.POP.DNST,49.8916207042851
+Malawi,MWI,1969,Population density (people per sq. km of land area),EN.POP.DNST,48.6020152736529
+Malawi,MWI,1968,Population density (people per sq. km of land area),EN.POP.DNST,47.3528107764107
+Malawi,MWI,1967,Population density (people per sq. km of land area),EN.POP.DNST,46.1439541790412
+Malawi,MWI,1966,Population density (people per sq. km of land area),EN.POP.DNST,44.9769728468392
+Malawi,MWI,1965,Population density (people per sq. km of land area),EN.POP.DNST,43.8529910903691
+Malawi,MWI,1964,Population density (people per sq. km of land area),EN.POP.DNST,42.7701633432329
+Malawi,MWI,1963,Population density (people per sq. km of land area),EN.POP.DNST,41.7257955027577
+Malawi,MWI,1962,Population density (people per sq. km of land area),EN.POP.DNST,40.7195905812473
+Malawi,MWI,1961,Population density (people per sq. km of land area),EN.POP.DNST,39.7513046245227
+Malawi,MWI,2010,Urban population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.UR.ZS,0
+Malawi,MWI,2000,Urban population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.UR.ZS,0
+Malawi,MWI,1990,Urban population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.UR.ZS,0
+Malawi,MWI,2014,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.7
+Malawi,MWI,2009,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,68.9
+Malawi,MWI,2007,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,67.7
+Malawi,MWI,2005,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,2000,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,1995,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,1990,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,2018,Population in largest city,EN.URB.LCTY,1029639
+Malawi,MWI,2017,Population in largest city,EN.URB.LCTY,986455
+Malawi,MWI,2016,Population in largest city,EN.URB.LCTY,945082
+Malawi,MWI,2015,Population in largest city,EN.URB.LCTY,905444
+Malawi,MWI,2014,Population in largest city,EN.URB.LCTY,867469
+Malawi,MWI,2013,Population in largest city,EN.URB.LCTY,831086
+Malawi,MWI,2012,Population in largest city,EN.URB.LCTY,796230
+Malawi,MWI,2011,Population in largest city,EN.URB.LCTY,762835
+Malawi,MWI,2010,Population in largest city,EN.URB.LCTY,730841
+Malawi,MWI,2009,Population in largest city,EN.URB.LCTY,700189
+Malawi,MWI,2008,Population in largest city,EN.URB.LCTY,670822
+Malawi,MWI,2007,Population in largest city,EN.URB.LCTY,644152
+Malawi,MWI,2006,Population in largest city,EN.URB.LCTY,626225
+Malawi,MWI,2005,Population in largest city,EN.URB.LCTY,608797
+Malawi,MWI,2004,Population in largest city,EN.URB.LCTY,591877
+Malawi,MWI,2003,Population in largest city,EN.URB.LCTY,575383
+Malawi,MWI,2002,Population in largest city,EN.URB.LCTY,559370
+Malawi,MWI,2001,Population in largest city,EN.URB.LCTY,543802
+Malawi,MWI,2000,Population in largest city,EN.URB.LCTY,528689
+Malawi,MWI,1999,Population in largest city,EN.URB.LCTY,513955
+Malawi,MWI,1998,Population in largest city,EN.URB.LCTY,498883
+Malawi,MWI,1997,Population in largest city,EN.URB.LCTY,480622
+Malawi,MWI,1996,Population in largest city,EN.URB.LCTY,463052
+Malawi,MWI,1995,Population in largest city,EN.URB.LCTY,446080
+Malawi,MWI,1994,Population in largest city,EN.URB.LCTY,429751
+Malawi,MWI,1993,Population in largest city,EN.URB.LCTY,414020
+Malawi,MWI,1992,Population in largest city,EN.URB.LCTY,398886
+Malawi,MWI,1991,Population in largest city,EN.URB.LCTY,384265
+Malawi,MWI,1990,Population in largest city,EN.URB.LCTY,370199
+Malawi,MWI,1989,Population in largest city,EN.URB.LCTY,356649
+Malawi,MWI,1988,Population in largest city,EN.URB.LCTY,343611
+Malawi,MWI,1987,Population in largest city,EN.URB.LCTY,330743
+Malawi,MWI,1986,Population in largest city,EN.URB.LCTY,317090
+Malawi,MWI,1985,Population in largest city,EN.URB.LCTY,304000
+Malawi,MWI,1984,Population in largest city,EN.URB.LCTY,291467
+Malawi,MWI,1983,Population in largest city,EN.URB.LCTY,279419
+Malawi,MWI,1982,Population in largest city,EN.URB.LCTY,267884
+Malawi,MWI,1981,Population in largest city,EN.URB.LCTY,256825
+Malawi,MWI,1980,Population in largest city,EN.URB.LCTY,246238
+Malawi,MWI,1979,Population in largest city,EN.URB.LCTY,236059
+Malawi,MWI,1978,Population in largest city,EN.URB.LCTY,226314
+Malawi,MWI,1977,Population in largest city,EN.URB.LCTY,215999
+Malawi,MWI,1976,Population in largest city,EN.URB.LCTY,202951
+Malawi,MWI,1975,Population in largest city,EN.URB.LCTY,190658
+Malawi,MWI,1974,Population in largest city,EN.URB.LCTY,179125
+Malawi,MWI,1973,Population in largest city,EN.URB.LCTY,168289
+Malawi,MWI,1972,Population in largest city,EN.URB.LCTY,158123
+Malawi,MWI,1971,Population in largest city,EN.URB.LCTY,148545
+Malawi,MWI,1970,Population in largest city,EN.URB.LCTY,139560
+Malawi,MWI,1969,Population in largest city,EN.URB.LCTY,131118
+Malawi,MWI,1968,Population in largest city,EN.URB.LCTY,123197
+Malawi,MWI,1967,Population in largest city,EN.URB.LCTY,115735
+Malawi,MWI,1966,Population in largest city,EN.URB.LCTY,107978
+Malawi,MWI,1965,Population in largest city,EN.URB.LCTY,95035
+Malawi,MWI,1964,Population in largest city,EN.URB.LCTY,83658
+Malawi,MWI,1963,Population in largest city,EN.URB.LCTY,73617
+Malawi,MWI,1962,Population in largest city,EN.URB.LCTY,64792
+Malawi,MWI,1961,Population in largest city,EN.URB.LCTY,57026
+Malawi,MWI,1960,Population in largest city,EN.URB.LCTY,50199
+Malawi,MWI,2018,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.5067181744607
+Malawi,MWI,2017,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.4005777056802
+Malawi,MWI,2016,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.2786484054924
+Malawi,MWI,2015,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.1462798641559
+Malawi,MWI,2014,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.0108618178732
+Malawi,MWI,2013,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.8635634968275
+Malawi,MWI,2012,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.7072283455252
+Malawi,MWI,2011,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.532191659893
+Malawi,MWI,2010,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.3375679247729
+Malawi,MWI,2009,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.1212221303192
+Malawi,MWI,2008,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,31.8841447648598
+Malawi,MWI,2007,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,31.6906619227166
+Malawi,MWI,2006,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,31.8732227265023
+Malawi,MWI,2005,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.0299614197003
+Malawi,MWI,2004,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.1524276596588
+Malawi,MWI,2003,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.2338541657913
+Malawi,MWI,2002,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.2965250216226
+Malawi,MWI,2001,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.3638690095371
+Malawi,MWI,2000,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.4581264880276
+Malawi,MWI,1999,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.6058752811234
+Malawi,MWI,1998,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,32.8677838624157
+Malawi,MWI,1997,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.4394124506363
+Malawi,MWI,1996,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.8982405640971
+Malawi,MWI,1995,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,34.1649657454247
+Malawi,MWI,1994,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,34.1648143378203
+Malawi,MWI,1993,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.9521232582951
+Malawi,MWI,1992,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.7058656517654
+Malawi,MWI,1991,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.6778550782558
+Malawi,MWI,1990,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,34.0519334780529
+Malawi,MWI,1989,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,34.9530120045043
+Malawi,MWI,1988,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,36.3865192050287
+Malawi,MWI,1987,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,38.1788504892653
+Malawi,MWI,1986,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,39.7702259486646
+Malawi,MWI,1985,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,41.1548260802465
+Malawi,MWI,1984,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,42.1405180328343
+Malawi,MWI,1983,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,42.7345499259767
+Malawi,MWI,1982,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,43.0321226111248
+Malawi,MWI,1981,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,43.2380606048362
+Malawi,MWI,1980,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,43.5307116402818
+Malawi,MWI,1979,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,43.9477971087343
+Malawi,MWI,1978,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,44.4403862127469
+Malawi,MWI,1977,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,45.0030731407498
+Malawi,MWI,1976,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,45.6599112678972
+Malawi,MWI,1975,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,46.2711597034304
+Malawi,MWI,1974,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,46.845986871355
+Malawi,MWI,1973,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,47.4044173776855
+Malawi,MWI,1972,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,47.9461359094947
+Malawi,MWI,1971,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,48.4797947820865
+Malawi,MWI,1970,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,49.0165776903625
+Malawi,MWI,1969,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,49.5664007863002
+Malawi,MWI,1968,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,50.1277638078497
+Malawi,MWI,1967,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,50.6820520680519
+Malawi,MWI,1966,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,50.7451183119111
+Malawi,MWI,1965,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,46.8339583774807
+Malawi,MWI,1964,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,43.2220465606497
+Malawi,MWI,1963,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,39.8666724431111
+Malawi,MWI,1962,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,36.7693460150274
+Malawi,MWI,1961,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,33.8962297235448
+Malawi,MWI,1960,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,31.2429593024341
+Malawi,MWI,2018,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,1029639
+Malawi,MWI,2017,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,986455
+Malawi,MWI,2016,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,945082
+Malawi,MWI,2015,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,905444
+Malawi,MWI,2014,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,867469
+Malawi,MWI,2013,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,831086
+Malawi,MWI,2012,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,796230
+Malawi,MWI,2011,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,762835
+Malawi,MWI,2010,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,730841
+Malawi,MWI,2009,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,700189
+Malawi,MWI,2008,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,670822
+Malawi,MWI,2007,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,642687
+Malawi,MWI,2006,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,615769
+Malawi,MWI,2005,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,589978
+Malawi,MWI,2004,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,565300
+Malawi,MWI,2003,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,541591
+Malawi,MWI,2002,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,518907
+Malawi,MWI,2001,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,497173
+Malawi,MWI,2000,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,476377
+Malawi,MWI,1999,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,456397
+Malawi,MWI,1998,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,435875
+Malawi,MWI,1997,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,409774
+Malawi,MWI,1996,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,385269
+Malawi,MWI,1995,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,362167
+Malawi,MWI,1994,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,340480
+Malawi,MWI,1993,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,320091
+Malawi,MWI,1992,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,300949
+Malawi,MWI,1991,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,282904
+Malawi,MWI,1990,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,265963
+Malawi,MWI,1989,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,250037
+Malawi,MWI,1988,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,235084
+Malawi,MWI,1987,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,220227
+Malawi,MWI,1986,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,202877
+Malawi,MWI,1985,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,186893
+Malawi,MWI,1984,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,172189
+Malawi,MWI,1983,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,158605
+Malawi,MWI,1982,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,146110
+Malawi,MWI,1981,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,134599
+Malawi,MWI,1980,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,124008
+Malawi,MWI,1979,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,114226
+Malawi,MWI,1978,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,105227
+Malawi,MWI,1977,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,95565
+Malawi,MWI,1976,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,82578
+Malawi,MWI,1975,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,71328
+Malawi,MWI,1974,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,61622
+Malawi,MWI,1973,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,53238
+Malawi,MWI,1972,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,46003
+Malawi,MWI,1971,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,39735
+Malawi,MWI,1970,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,34329
+Malawi,MWI,1969,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,29658
+Malawi,MWI,1968,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,25627
+Malawi,MWI,1967,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,22136
+Malawi,MWI,1966,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,19219
+Malawi,MWI,1965,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,17398
+Malawi,MWI,1964,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,15752
+Malawi,MWI,1963,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,14258
+Malawi,MWI,1962,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,12907
+Malawi,MWI,1961,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,11684
+Malawi,MWI,1960,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,10578
+Malawi,MWI,2018,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.675032374183
+Malawi,MWI,2017,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.58257207307646
+Malawi,MWI,2016,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.49297370128453
+Malawi,MWI,2015,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.40715208318416
+Malawi,MWI,2014,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.32531305365284
+Malawi,MWI,2013,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.24699719412556
+Malawi,MWI,2012,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.1716662861567
+Malawi,MWI,2011,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.09844465808036
+Malawi,MWI,2010,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,5.02655091483872
+Malawi,MWI,2009,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.95598328302599
+Malawi,MWI,2008,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.88656304792652
+Malawi,MWI,2007,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.81709147921953
+Malawi,MWI,2006,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.74628708435428
+Malawi,MWI,2005,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.67274071689802
+Malawi,MWI,2004,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.59524828728845
+Malawi,MWI,2003,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.51319025938025
+Malawi,MWI,2002,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.42992901281785
+Malawi,MWI,2001,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.34895906228132
+Malawi,MWI,2000,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.27291542250715
+Malawi,MWI,1999,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.20474903913851
+Malawi,MWI,1998,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,4.13060119946878
+Malawi,MWI,1997,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,3.99198979513305
+Malawi,MWI,1996,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,3.84393006776856
+Malawi,MWI,1995,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,3.67890829470314
+Malawi,MWI,1994,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,3.49364693520931
+Malawi,MWI,1993,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,3.29639638442809
+Malawi,MWI,1992,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,3.10706007543073
+Malawi,MWI,1991,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.94680769617374
+Malawi,MWI,1990,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.82803976819608
+Malawi,MWI,1989,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.75505499818634
+Malawi,MWI,1988,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.72192240314287
+Malawi,MWI,1987,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.70511055814501
+Malawi,MWI,1986,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.64631689148127
+Malawi,MWI,1985,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.57135573032746
+Malawi,MWI,1984,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.47234337845624
+Malawi,MWI,1983,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.35391494472185
+Malawi,MWI,1982,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.22525637813672
+Malawi,MWI,1981,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,2.09904771766632
+Malawi,MWI,1980,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.98398832722176
+Malawi,MWI,1979,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.88011018032276
+Malawi,MWI,1978,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.78445665620631
+Malawi,MWI,1977,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.67131489188526
+Malawi,MWI,1976,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.48905872367374
+Malawi,MWI,1975,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.3246186716486
+Malawi,MWI,1974,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.17709915410922
+Malawi,MWI,1973,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1.04524260297175
+Malawi,MWI,1972,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.927751243357684
+Malawi,MWI,1971,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.822825832610285
+Malawi,MWI,1970,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.729816985566083
+Malawi,MWI,1969,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.647243964577698
+Malawi,MWI,1968,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.57402714751716
+Malawi,MWI,1967,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.508820692654465
+Malawi,MWI,1966,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.453232444170154
+Malawi,MWI,1965,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.42080465163528
+Malawi,MWI,1964,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.390638658992439
+Malawi,MWI,1963,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.362438572533979
+Malawi,MWI,1962,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.336203579902595
+Malawi,MWI,1961,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.311760140009227
+Malawi,MWI,1960,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,0.28901765690779
+Malawi,MWI,2016,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,1.14
+Malawi,MWI,2014,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,1.8
+Malawi,MWI,2012,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,1.9
+Malawi,MWI,2010,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,1.54
+Malawi,MWI,2008,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,1.67
+Malawi,MWI,2006,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,1.12
+Malawi,MWI,2004,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.88
+Malawi,MWI,2002,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.62
+Malawi,MWI,2000,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.68
+Malawi,MWI,1998,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.45
+Malawi,MWI,1995,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.55
+Malawi,MWI,1992,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.67
+Malawi,MWI,1991,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.56
+Malawi,MWI,2016,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,1.15
+Malawi,MWI,2014,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,1.78
+Malawi,MWI,2012,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,1.93
+Malawi,MWI,2010,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,1.71
+Malawi,MWI,2008,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,1.78
+Malawi,MWI,2006,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,1.17
+Malawi,MWI,2004,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.95
+Malawi,MWI,2002,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.66
+Malawi,MWI,2000,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.69
+Malawi,MWI,1998,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.51
+Malawi,MWI,1995,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.65
+Malawi,MWI,1992,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.71
+Malawi,MWI,1991,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.64
+Malawi,MWI,2016,"Mortality caused by road traffic injury (per 100,000 people)",SH.STA.TRAF.P5,31
+Malawi,MWI,2013,"Mortality caused by road traffic injury (per 100,000 people)",SH.STA.TRAF.P5,35
+Malawi,MWI,2018,Urban population growth (annual %),SP.URB.GROW,3.96730609077091
+Malawi,MWI,2017,Urban population growth (annual %),SP.URB.GROW,3.91888182949838
+Malawi,MWI,2016,Urban population growth (annual %),SP.URB.GROW,3.88607518195019
+Malawi,MWI,2015,Urban population growth (annual %),SP.URB.GROW,3.8751819077733
+Malawi,MWI,2014,Urban population growth (annual %),SP.URB.GROW,3.83743952847957
+Malawi,MWI,2013,Urban population growth (annual %),SP.URB.GROW,3.8076742686959
+Malawi,MWI,2012,Urban population growth (annual %),SP.URB.GROW,3.74803404878899
+Malawi,MWI,2011,Urban population growth (annual %),SP.URB.GROW,3.68453667209267
+Malawi,MWI,2010,Urban population growth (annual %),SP.URB.GROW,3.61329164695369
+Malawi,MWI,2009,Urban population growth (annual %),SP.URB.GROW,3.54383922001905
+Malawi,MWI,2008,Urban population growth (annual %),SP.URB.GROW,3.44823069729034
+Malawi,MWI,2007,Urban population growth (annual %),SP.URB.GROW,3.39691750645982
+Malawi,MWI,2006,Urban population growth (annual %),SP.URB.GROW,3.31303674249531
+Malawi,MWI,2005,Urban population growth (annual %),SP.URB.GROW,3.20022349091131
+Malawi,MWI,2004,Urban population growth (annual %),SP.URB.GROW,3.07922506226758
+Malawi,MWI,2003,Urban population growth (annual %),SP.URB.GROW,3.01671236910849
+Malawi,MWI,2002,Urban population growth (annual %),SP.URB.GROW,3.03089469810061
+Malawi,MWI,2001,Urban population growth (annual %),SP.URB.GROW,3.10930490760703
+Malawi,MWI,2000,Urban population growth (annual %),SP.URB.GROW,3.28062969108116
+Malawi,MWI,1999,Urban population growth (annual %),SP.URB.GROW,3.77645823010381
+Malawi,MWI,1998,Urban population growth (annual %),SP.URB.GROW,5.45327546398452
+Malawi,MWI,1997,Urban population growth (annual %),SP.URB.GROW,5.08696340422868
+Malawi,MWI,1996,Urban population growth (annual %),SP.URB.GROW,4.51786639978194
+Malawi,MWI,1995,Urban population growth (annual %),SP.URB.GROW,3.7287905265065
+Malawi,MWI,1994,Urban population growth (annual %),SP.URB.GROW,3.10467882136195
+Malawi,MWI,1993,Urban population growth (annual %),SP.URB.GROW,2.99591044240157
+Malawi,MWI,1992,Urban population growth (annual %),SP.URB.GROW,3.65118678981815
+Malawi,MWI,1991,Urban population growth (annual %),SP.URB.GROW,4.83380323074635
+Malawi,MWI,1990,Urban population growth (annual %),SP.URB.GROW,6.34064249154778
+Malawi,MWI,1989,Urban population growth (annual %),SP.URB.GROW,7.74356104659262
+Malawi,MWI,1988,Urban population growth (annual %),SP.URB.GROW,8.62519204591483
+Malawi,MWI,1987,Urban population growth (annual %),SP.URB.GROW,8.29928239069336
+Malawi,MWI,1986,Urban population growth (annual %),SP.URB.GROW,7.63806037063501
+Malawi,MWI,1985,Urban population growth (annual %),SP.URB.GROW,6.57694105630664
+Malawi,MWI,1984,Urban population growth (annual %),SP.URB.GROW,5.62123678422554
+Malawi,MWI,1983,Urban population growth (annual %),SP.URB.GROW,4.90975458326852
+Malawi,MWI,1982,Urban population growth (annual %),SP.URB.GROW,4.69333975072711
+Malawi,MWI,1981,Urban population growth (annual %),SP.URB.GROW,4.8841935016522
+Malawi,MWI,1980,Urban population growth (annual %),SP.URB.GROW,5.17525706237513
+Malawi,MWI,1979,Urban population growth (annual %),SP.URB.GROW,5.33045134563037
+Malawi,MWI,1978,Urban population growth (annual %),SP.URB.GROW,5.9231761529043
+Malawi,MWI,1977,Urban population growth (annual %),SP.URB.GROW,7.67991257711772
+Malawi,MWI,1976,Urban population growth (annual %),SP.URB.GROW,7.57814921194765
+Malawi,MWI,1975,Urban population growth (annual %),SP.URB.GROW,7.47438404691756
+Malawi,MWI,1974,Urban population growth (annual %),SP.URB.GROW,7.42512186260194
+Malawi,MWI,1973,Urban population growth (annual %),SP.URB.GROW,7.36723226754657
+Malawi,MWI,1972,Urban population growth (annual %),SP.URB.GROW,7.35541649952687
+Malawi,MWI,1971,Urban population growth (annual %),SP.URB.GROW,7.34047787182002
+Malawi,MWI,1970,Urban population growth (annual %),SP.URB.GROW,7.35515747852263
+Malawi,MWI,1969,Urban population growth (annual %),SP.URB.GROW,7.3574802692922
+Malawi,MWI,1968,Urban population growth (annual %),SP.URB.GROW,7.34784281205443
+Malawi,MWI,1967,Urban population growth (annual %),SP.URB.GROW,7.06191693420066
+Malawi,MWI,1966,Urban population growth (annual %),SP.URB.GROW,4.74753816253549
+Malawi,MWI,1965,Urban population growth (annual %),SP.URB.GROW,4.72503413313292
+Malawi,MWI,1964,Urban population growth (annual %),SP.URB.GROW,4.7051077734635
+Malawi,MWI,1963,Urban population growth (annual %),SP.URB.GROW,4.68176499600531
+Malawi,MWI,1962,Urban population growth (annual %),SP.URB.GROW,4.63141160434516
+Malawi,MWI,1961,Urban population growth (annual %),SP.URB.GROW,4.60024558736982
+Malawi,MWI,1960,Urban population growth (annual %),SP.URB.GROW,4.588568349113
+Malawi,MWI,2018,Urban population,SP.URB.TOTL,3072933
+Malawi,MWI,2017,Urban population,SP.URB.TOTL,2953407
+Malawi,MWI,2016,Urban population,SP.URB.TOTL,2839905
+Malawi,MWI,2015,Urban population,SP.URB.TOTL,2731661
+Malawi,MWI,2014,Urban population,SP.URB.TOTL,2627829
+Malawi,MWI,2013,Urban population,SP.URB.TOTL,2528898
+Malawi,MWI,2012,Urban population,SP.URB.TOTL,2434416
+Malawi,MWI,2011,Urban population,SP.URB.TOTL,2344862
+Malawi,MWI,2010,Urban population,SP.URB.TOTL,2260037
+Malawi,MWI,2009,Urban population,SP.URB.TOTL,2179833
+Malawi,MWI,2008,Urban population,SP.URB.TOTL,2103936
+Malawi,MWI,2007,Urban population,SP.URB.TOTL,2032624
+Malawi,MWI,2006,Urban population,SP.URB.TOTL,1964737
+Malawi,MWI,2005,Urban population,SP.URB.TOTL,1900711
+Malawi,MWI,2004,Urban population,SP.URB.TOTL,1840847
+Malawi,MWI,2003,Urban population,SP.URB.TOTL,1785027
+Malawi,MWI,2002,Urban population,SP.URB.TOTL,1731982
+Malawi,MWI,2001,Urban population,SP.URB.TOTL,1680275
+Malawi,MWI,2000,Urban population,SP.URB.TOTL,1628834
+Malawi,MWI,1999,Urban population,SP.URB.TOTL,1576265
+Malawi,MWI,1998,Urban population,SP.URB.TOTL,1517848
+Malawi,MWI,1997,Urban population,SP.URB.TOTL,1437292
+Malawi,MWI,1996,Urban population,SP.URB.TOTL,1366006
+Malawi,MWI,1995,Urban population,SP.URB.TOTL,1305665
+Malawi,MWI,1994,Urban population,SP.URB.TOTL,1257876
+Malawi,MWI,1993,Urban population,SP.URB.TOTL,1219423
+Malawi,MWI,1992,Urban population,SP.URB.TOTL,1183432
+Malawi,MWI,1991,Urban population,SP.URB.TOTL,1141002
+Malawi,MWI,1990,Urban population,SP.URB.TOTL,1087160
+Malawi,MWI,1989,Urban population,SP.URB.TOTL,1020367
+Malawi,MWI,1988,Urban population,SP.URB.TOTL,944336
+Malawi,MWI,1987,Urban population,SP.URB.TOTL,866299
+Malawi,MWI,1986,Urban population,SP.URB.TOTL,797305
+Malawi,MWI,1985,Urban population,SP.URB.TOTL,738674
+Malawi,MWI,1984,Urban population,SP.URB.TOTL,691655
+Malawi,MWI,1983,Urban population,SP.URB.TOTL,653848
+Malawi,MWI,1982,Urban population,SP.URB.TOTL,622521
+Malawi,MWI,1981,Urban population,SP.URB.TOTL,593979
+Malawi,MWI,1980,Urban population,SP.URB.TOTL,565665
+Malawi,MWI,1979,Urban population,SP.URB.TOTL,537135
+Malawi,MWI,1978,Urban population,SP.URB.TOTL,509253
+Malawi,MWI,1977,Urban population,SP.URB.TOTL,479965
+Malawi,MWI,1976,Urban population,SP.URB.TOTL,444484
+Malawi,MWI,1975,Urban population,SP.URB.TOTL,412045
+Malawi,MWI,1974,Urban population,SP.URB.TOTL,382370
+Malawi,MWI,1973,Urban population,SP.URB.TOTL,355007
+Malawi,MWI,1972,Urban population,SP.URB.TOTL,329793
+Malawi,MWI,1971,Urban population,SP.URB.TOTL,306406
+Malawi,MWI,1970,Urban population,SP.URB.TOTL,284720
+Malawi,MWI,1969,Urban population,SP.URB.TOTL,264530
+Malawi,MWI,1968,Urban population,SP.URB.TOTL,245766
+Malawi,MWI,1967,Urban population,SP.URB.TOTL,228355
+Malawi,MWI,1966,Urban population,SP.URB.TOTL,212785
+Malawi,MWI,1965,Urban population,SP.URB.TOTL,202919
+Malawi,MWI,1964,Urban population,SP.URB.TOTL,193554
+Malawi,MWI,1963,Urban population,SP.URB.TOTL,184658
+Malawi,MWI,1962,Urban population,SP.URB.TOTL,176212
+Malawi,MWI,1961,Urban population,SP.URB.TOTL,168237
+Malawi,MWI,1960,Urban population,SP.URB.TOTL,160673
+Malawi,MWI,2018,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.937
+Malawi,MWI,2017,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.714
+Malawi,MWI,2016,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.506
+Malawi,MWI,2015,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.313
+Malawi,MWI,2014,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.132
+Malawi,MWI,2013,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.966
+Malawi,MWI,2012,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.812
+Malawi,MWI,2011,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.672
+Malawi,MWI,2010,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.544
+Malawi,MWI,2009,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.429
+Malawi,MWI,2008,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.326
+Malawi,MWI,2007,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.235
+Malawi,MWI,2006,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.144
+Malawi,MWI,2005,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.054
+Malawi,MWI,2004,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.964
+Malawi,MWI,2003,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.875
+Malawi,MWI,2002,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.786
+Malawi,MWI,2001,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.698
+Malawi,MWI,2000,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.61
+Malawi,MWI,1999,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.522
+Malawi,MWI,1998,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.384
+Malawi,MWI,1997,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.002
+Malawi,MWI,1996,Urban population (% of total population),SP.URB.TOTL.IN.ZS,13.629
+Malawi,MWI,1995,Urban population (% of total population),SP.URB.TOTL.IN.ZS,13.263
+Malawi,MWI,1994,Urban population (% of total population),SP.URB.TOTL.IN.ZS,12.907
+Malawi,MWI,1993,Urban population (% of total population),SP.URB.TOTL.IN.ZS,12.558
+Malawi,MWI,1992,Urban population (% of total population),SP.URB.TOTL.IN.ZS,12.218
+Malawi,MWI,1991,Urban population (% of total population),SP.URB.TOTL.IN.ZS,11.885
+Malawi,MWI,1990,Urban population (% of total population),SP.URB.TOTL.IN.ZS,11.56
+Malawi,MWI,1989,Urban population (% of total population),SP.URB.TOTL.IN.ZS,11.243
+Malawi,MWI,1988,Urban population (% of total population),SP.URB.TOTL.IN.ZS,10.934
+Malawi,MWI,1987,Urban population (% of total population),SP.URB.TOTL.IN.ZS,10.641
+Malawi,MWI,1986,Urban population (% of total population),SP.URB.TOTL.IN.ZS,10.4
+Malawi,MWI,1985,Urban population (% of total population),SP.URB.TOTL.IN.ZS,10.163
+Malawi,MWI,1984,Urban population (% of total population),SP.URB.TOTL.IN.ZS,9.931
+Malawi,MWI,1983,Urban population (% of total population),SP.URB.TOTL.IN.ZS,9.704
+Malawi,MWI,1982,Urban population (% of total population),SP.URB.TOTL.IN.ZS,9.481
+Malawi,MWI,1981,Urban population (% of total population),SP.URB.TOTL.IN.ZS,9.263
+Malawi,MWI,1980,Urban population (% of total population),SP.URB.TOTL.IN.ZS,9.05
+Malawi,MWI,1979,Urban population (% of total population),SP.URB.TOTL.IN.ZS,8.841
+Malawi,MWI,1978,Urban population (% of total population),SP.URB.TOTL.IN.ZS,8.636
+Malawi,MWI,1977,Urban population (% of total population),SP.URB.TOTL.IN.ZS,8.394
+Malawi,MWI,1976,Urban population (% of total population),SP.URB.TOTL.IN.ZS,8.015
+Malawi,MWI,1975,Urban population (% of total population),SP.URB.TOTL.IN.ZS,7.652
+Malawi,MWI,1974,Urban population (% of total population),SP.URB.TOTL.IN.ZS,7.304
+Malawi,MWI,1973,Urban population (% of total population),SP.URB.TOTL.IN.ZS,6.97
+Malawi,MWI,1972,Urban population (% of total population),SP.URB.TOTL.IN.ZS,6.651
+Malawi,MWI,1971,Urban population (% of total population),SP.URB.TOTL.IN.ZS,6.345
+Malawi,MWI,1970,Urban population (% of total population),SP.URB.TOTL.IN.ZS,6.053
+Malawi,MWI,1969,Urban population (% of total population),SP.URB.TOTL.IN.ZS,5.773
+Malawi,MWI,1968,Urban population (% of total population),SP.URB.TOTL.IN.ZS,5.505
+Malawi,MWI,1967,Urban population (% of total population),SP.URB.TOTL.IN.ZS,5.249
+Malawi,MWI,1966,Urban population (% of total population),SP.URB.TOTL.IN.ZS,5.018
+Malawi,MWI,1965,Urban population (% of total population),SP.URB.TOTL.IN.ZS,4.908
+Malawi,MWI,1964,Urban population (% of total population),SP.URB.TOTL.IN.ZS,4.8
+Malawi,MWI,1963,Urban population (% of total population),SP.URB.TOTL.IN.ZS,4.694
+Malawi,MWI,1962,Urban population (% of total population),SP.URB.TOTL.IN.ZS,4.59
+Malawi,MWI,1961,Urban population (% of total population),SP.URB.TOTL.IN.ZS,4.489
+Malawi,MWI,1960,Urban population (% of total population),SP.URB.TOTL.IN.ZS,4.39
+Malawi,MWI,2007,"Motor vehicles (per 1,000 people)",IS.VEH.NVEH.P3,8
+Malawi,MWI,2007,"Passenger cars (per 1,000 people)",IS.VEH.PCAR.P3,4

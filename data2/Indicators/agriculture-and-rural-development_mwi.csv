@@ -1,0 +1,1605 @@
+Country Name,Country ISO3,Year,Indicator Name,Indicator Code,Value
+#country+name,#country+code,#date+year,#indicator+name,#indicator+code,#indicator+value+num
+Malawi,MWI,1968,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,692
+Malawi,MWI,1967,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,550
+Malawi,MWI,1966,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,450
+Malawi,MWI,1965,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,350
+Malawi,MWI,1964,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,215
+Malawi,MWI,1963,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,210
+Malawi,MWI,1962,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,200
+Malawi,MWI,1961,"Agricultural machinery, tractors",AG.AGR.TRAC.NO,198
+Malawi,MWI,2009,Fertilizer consumption (% of fertilizer production),AG.CON.FERT.PT.ZS,59977.7777777778
+Malawi,MWI,2008,Fertilizer consumption (% of fertilizer production),AG.CON.FERT.PT.ZS,66100.5494505495
+Malawi,MWI,2007,Fertilizer consumption (% of fertilizer production),AG.CON.FERT.PT.ZS,96273.8461538462
+Malawi,MWI,2006,Fertilizer consumption (% of fertilizer production),AG.CON.FERT.PT.ZS,83233.5616438356
+Malawi,MWI,2016,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,21.6058956106086
+Malawi,MWI,2015,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,30.3523560855263
+Malawi,MWI,2014,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,37.6825681023849
+Malawi,MWI,2013,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,27.2946263363487
+Malawi,MWI,2012,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,24.6373677083333
+Malawi,MWI,2011,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,29.5227777777778
+Malawi,MWI,2010,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,35.3764864864865
+Malawi,MWI,2009,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,30.8457142857143
+Malawi,MWI,2008,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,34.8704347826087
+Malawi,MWI,2007,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,41.7186666666667
+Malawi,MWI,2006,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,36.8245454545455
+Malawi,MWI,2005,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,30.491875
+Malawi,MWI,2004,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,34.406
+Malawi,MWI,2003,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,31.0773333333333
+Malawi,MWI,2002,Fertilizer consumption (kilograms per hectare of arable land),AG.CON.FERT.ZS,29.7136842105263
+Malawi,MWI,2016,Agricultural land (sq. km),AG.LND.AGRI.K2,57900
+Malawi,MWI,2015,Agricultural land (sq. km),AG.LND.AGRI.K2,57900
+Malawi,MWI,2014,Agricultural land (sq. km),AG.LND.AGRI.K2,57900
+Malawi,MWI,2013,Agricultural land (sq. km),AG.LND.AGRI.K2,57900
+Malawi,MWI,2012,Agricultural land (sq. km),AG.LND.AGRI.K2,57350
+Malawi,MWI,2011,Agricultural land (sq. km),AG.LND.AGRI.K2,55850
+Malawi,MWI,2010,Agricultural land (sq. km),AG.LND.AGRI.K2,56850
+Malawi,MWI,2009,Agricultural land (sq. km),AG.LND.AGRI.K2,54850
+Malawi,MWI,2008,Agricultural land (sq. km),AG.LND.AGRI.K2,54350
+Malawi,MWI,2007,Agricultural land (sq. km),AG.LND.AGRI.K2,49850
+Malawi,MWI,2006,Agricultural land (sq. km),AG.LND.AGRI.K2,52850
+Malawi,MWI,2005,Agricultural land (sq. km),AG.LND.AGRI.K2,51800
+Malawi,MWI,2004,Agricultural land (sq. km),AG.LND.AGRI.K2,49800
+Malawi,MWI,2003,Agricultural land (sq. km),AG.LND.AGRI.K2,49800
+Malawi,MWI,2002,Agricultural land (sq. km),AG.LND.AGRI.K2,48300
+Malawi,MWI,2001,Agricultural land (sq. km),AG.LND.AGRI.K2,48300
+Malawi,MWI,2000,Agricultural land (sq. km),AG.LND.AGRI.K2,47300
+Malawi,MWI,1999,Agricultural land (sq. km),AG.LND.AGRI.K2,46800
+Malawi,MWI,1998,Agricultural land (sq. km),AG.LND.AGRI.K2,45800
+Malawi,MWI,1997,Agricultural land (sq. km),AG.LND.AGRI.K2,44300
+Malawi,MWI,1996,Agricultural land (sq. km),AG.LND.AGRI.K2,43800
+Malawi,MWI,1995,Agricultural land (sq. km),AG.LND.AGRI.K2,42800
+Malawi,MWI,1994,Agricultural land (sq. km),AG.LND.AGRI.K2,40700
+Malawi,MWI,1993,Agricultural land (sq. km),AG.LND.AGRI.K2,42700
+Malawi,MWI,1992,Agricultural land (sq. km),AG.LND.AGRI.K2,42700
+Malawi,MWI,1991,Agricultural land (sq. km),AG.LND.AGRI.K2,43200
+Malawi,MWI,1990,Agricultural land (sq. km),AG.LND.AGRI.K2,42180
+Malawi,MWI,1989,Agricultural land (sq. km),AG.LND.AGRI.K2,41650
+Malawi,MWI,1988,Agricultural land (sq. km),AG.LND.AGRI.K2,41150
+Malawi,MWI,1987,Agricultural land (sq. km),AG.LND.AGRI.K2,41100
+Malawi,MWI,1986,Agricultural land (sq. km),AG.LND.AGRI.K2,41050
+Malawi,MWI,1985,Agricultural land (sq. km),AG.LND.AGRI.K2,40050
+Malawi,MWI,1984,Agricultural land (sq. km),AG.LND.AGRI.K2,39900
+Malawi,MWI,1983,Agricultural land (sq. km),AG.LND.AGRI.K2,39400
+Malawi,MWI,1982,Agricultural land (sq. km),AG.LND.AGRI.K2,40300
+Malawi,MWI,1981,Agricultural land (sq. km),AG.LND.AGRI.K2,39300
+Malawi,MWI,1980,Agricultural land (sq. km),AG.LND.AGRI.K2,38300
+Malawi,MWI,1979,Agricultural land (sq. km),AG.LND.AGRI.K2,39700
+Malawi,MWI,1978,Agricultural land (sq. km),AG.LND.AGRI.K2,39680
+Malawi,MWI,1977,Agricultural land (sq. km),AG.LND.AGRI.K2,39150
+Malawi,MWI,1976,Agricultural land (sq. km),AG.LND.AGRI.K2,39120
+Malawi,MWI,1975,Agricultural land (sq. km),AG.LND.AGRI.K2,39100
+Malawi,MWI,1974,Agricultural land (sq. km),AG.LND.AGRI.K2,39600
+Malawi,MWI,1973,Agricultural land (sq. km),AG.LND.AGRI.K2,39570
+Malawi,MWI,1972,Agricultural land (sq. km),AG.LND.AGRI.K2,39070
+Malawi,MWI,1971,Agricultural land (sq. km),AG.LND.AGRI.K2,38570
+Malawi,MWI,1970,Agricultural land (sq. km),AG.LND.AGRI.K2,37070
+Malawi,MWI,1969,Agricultural land (sq. km),AG.LND.AGRI.K2,37570
+Malawi,MWI,1968,Agricultural land (sq. km),AG.LND.AGRI.K2,37070
+Malawi,MWI,1967,Agricultural land (sq. km),AG.LND.AGRI.K2,36050
+Malawi,MWI,1966,Agricultural land (sq. km),AG.LND.AGRI.K2,36530
+Malawi,MWI,1965,Agricultural land (sq. km),AG.LND.AGRI.K2,36030
+Malawi,MWI,1964,Agricultural land (sq. km),AG.LND.AGRI.K2,34000
+Malawi,MWI,1963,Agricultural land (sq. km),AG.LND.AGRI.K2,33500
+Malawi,MWI,1962,Agricultural land (sq. km),AG.LND.AGRI.K2,33000
+Malawi,MWI,1961,Agricultural land (sq. km),AG.LND.AGRI.K2,32000
+Malawi,MWI,2016,Agricultural land (% of land area),AG.LND.AGRI.ZS,61.4128128977514
+Malawi,MWI,2015,Agricultural land (% of land area),AG.LND.AGRI.ZS,61.4128128977514
+Malawi,MWI,2014,Agricultural land (% of land area),AG.LND.AGRI.ZS,61.4128128977514
+Malawi,MWI,2013,Agricultural land (% of land area),AG.LND.AGRI.ZS,61.4128128977514
+Malawi,MWI,2012,Agricultural land (% of land area),AG.LND.AGRI.ZS,60.8294442087399
+Malawi,MWI,2011,Agricultural land (% of land area),AG.LND.AGRI.ZS,59.2384386932541
+Malawi,MWI,2010,Agricultural land (% of land area),AG.LND.AGRI.ZS,60.2991090369113
+Malawi,MWI,2009,Agricultural land (% of land area),AG.LND.AGRI.ZS,58.1777683495969
+Malawi,MWI,2008,Agricultural land (% of land area),AG.LND.AGRI.ZS,57.6474331777683
+Malawi,MWI,2007,Agricultural land (% of land area),AG.LND.AGRI.ZS,52.874416631311
+Malawi,MWI,2006,Agricultural land (% of land area),AG.LND.AGRI.ZS,56.0564276622826
+Malawi,MWI,2005,Agricultural land (% of land area),AG.LND.AGRI.ZS,54.9427238014425
+Malawi,MWI,2004,Agricultural land (% of land area),AG.LND.AGRI.ZS,52.8213831141281
+Malawi,MWI,2003,Agricultural land (% of land area),AG.LND.AGRI.ZS,52.8213831141281
+Malawi,MWI,2002,Agricultural land (% of land area),AG.LND.AGRI.ZS,51.2303775986423
+Malawi,MWI,2001,Agricultural land (% of land area),AG.LND.AGRI.ZS,51.2303775986423
+Malawi,MWI,2000,Agricultural land (% of land area),AG.LND.AGRI.ZS,50.1697072549852
+Malawi,MWI,1999,Agricultural land (% of land area),AG.LND.AGRI.ZS,49.6393720831566
+Malawi,MWI,1998,Agricultural land (% of land area),AG.LND.AGRI.ZS,48.5787017394994
+Malawi,MWI,1997,Agricultural land (% of land area),AG.LND.AGRI.ZS,46.9876962240136
+Malawi,MWI,1996,Agricultural land (% of land area),AG.LND.AGRI.ZS,46.457361052185
+Malawi,MWI,1995,Agricultural land (% of land area),AG.LND.AGRI.ZS,45.3966907085278
+Malawi,MWI,1994,Agricultural land (% of land area),AG.LND.AGRI.ZS,43.1692829868477
+Malawi,MWI,1993,Agricultural land (% of land area),AG.LND.AGRI.ZS,45.2906236741621
+Malawi,MWI,1992,Agricultural land (% of land area),AG.LND.AGRI.ZS,45.2906236741621
+Malawi,MWI,1991,Agricultural land (% of land area),AG.LND.AGRI.ZS,45.8209588459907
+Malawi,MWI,1990,Agricultural land (% of land area),AG.LND.AGRI.ZS,44.7390750954603
+Malawi,MWI,1989,Agricultural land (% of land area),AG.LND.AGRI.ZS,44.176919813322
+Malawi,MWI,1988,Agricultural land (% of land area),AG.LND.AGRI.ZS,43.6465846414934
+Malawi,MWI,1987,Agricultural land (% of land area),AG.LND.AGRI.ZS,43.5935511243106
+Malawi,MWI,1986,Agricultural land (% of land area),AG.LND.AGRI.ZS,43.5405176071277
+Malawi,MWI,1985,Agricultural land (% of land area),AG.LND.AGRI.ZS,42.4798472634705
+Malawi,MWI,1984,Agricultural land (% of land area),AG.LND.AGRI.ZS,42.3207467119219
+Malawi,MWI,1983,Agricultural land (% of land area),AG.LND.AGRI.ZS,41.7904115400933
+Malawi,MWI,1982,Agricultural land (% of land area),AG.LND.AGRI.ZS,42.7450148493848
+Malawi,MWI,1981,Agricultural land (% of land area),AG.LND.AGRI.ZS,41.6843445057276
+Malawi,MWI,1980,Agricultural land (% of land area),AG.LND.AGRI.ZS,40.6236741620704
+Malawi,MWI,1979,Agricultural land (% of land area),AG.LND.AGRI.ZS,42.1086126431905
+Malawi,MWI,1978,Agricultural land (% of land area),AG.LND.AGRI.ZS,42.0873992363174
+Malawi,MWI,1977,Agricultural land (% of land area),AG.LND.AGRI.ZS,41.525243954179
+Malawi,MWI,1976,Agricultural land (% of land area),AG.LND.AGRI.ZS,41.4934238438693
+Malawi,MWI,1975,Agricultural land (% of land area),AG.LND.AGRI.ZS,41.4722104369962
+Malawi,MWI,1974,Agricultural land (% of land area),AG.LND.AGRI.ZS,42.0025456088248
+Malawi,MWI,1973,Agricultural land (% of land area),AG.LND.AGRI.ZS,41.9707254985151
+Malawi,MWI,1972,Agricultural land (% of land area),AG.LND.AGRI.ZS,41.4403903266865
+Malawi,MWI,1971,Agricultural land (% of land area),AG.LND.AGRI.ZS,40.9100551548579
+Malawi,MWI,1970,Agricultural land (% of land area),AG.LND.AGRI.ZS,39.3190496393721
+Malawi,MWI,1969,Agricultural land (% of land area),AG.LND.AGRI.ZS,39.8493848112007
+Malawi,MWI,1968,Agricultural land (% of land area),AG.LND.AGRI.ZS,39.3190496393721
+Malawi,MWI,1967,Agricultural land (% of land area),AG.LND.AGRI.ZS,38.2371658888417
+Malawi,MWI,1966,Agricultural land (% of land area),AG.LND.AGRI.ZS,38.7462876537972
+Malawi,MWI,1965,Agricultural land (% of land area),AG.LND.AGRI.ZS,38.2159524819686
+Malawi,MWI,1964,Agricultural land (% of land area),AG.LND.AGRI.ZS,36.0627916843445
+Malawi,MWI,1963,Agricultural land (% of land area),AG.LND.AGRI.ZS,35.5324565125159
+Malawi,MWI,1962,Agricultural land (% of land area),AG.LND.AGRI.ZS,35.0021213406873
+Malawi,MWI,1961,Agricultural land (% of land area),AG.LND.AGRI.ZS,33.9414509970301
+Malawi,MWI,2016,Arable land (hectares),AG.LND.ARBL.HA,3800000
+Malawi,MWI,2015,Arable land (hectares),AG.LND.ARBL.HA,3800000
+Malawi,MWI,2014,Arable land (hectares),AG.LND.ARBL.HA,3800000
+Malawi,MWI,2013,Arable land (hectares),AG.LND.ARBL.HA,3800000
+Malawi,MWI,2012,Arable land (hectares),AG.LND.ARBL.HA,3750000
+Malawi,MWI,2011,Arable land (hectares),AG.LND.ARBL.HA,3600000
+Malawi,MWI,2010,Arable land (hectares),AG.LND.ARBL.HA,3700000
+Malawi,MWI,2009,Arable land (hectares),AG.LND.ARBL.HA,3500000
+Malawi,MWI,2008,Arable land (hectares),AG.LND.ARBL.HA,3450000
+Malawi,MWI,2007,Arable land (hectares),AG.LND.ARBL.HA,3000000
+Malawi,MWI,2006,Arable land (hectares),AG.LND.ARBL.HA,3300000
+Malawi,MWI,2005,Arable land (hectares),AG.LND.ARBL.HA,3200000
+Malawi,MWI,2004,Arable land (hectares),AG.LND.ARBL.HA,3000000
+Malawi,MWI,2003,Arable land (hectares),AG.LND.ARBL.HA,3000000
+Malawi,MWI,2002,Arable land (hectares),AG.LND.ARBL.HA,2850000
+Malawi,MWI,2001,Arable land (hectares),AG.LND.ARBL.HA,2850000
+Malawi,MWI,2000,Arable land (hectares),AG.LND.ARBL.HA,2750000
+Malawi,MWI,1999,Arable land (hectares),AG.LND.ARBL.HA,2700000
+Malawi,MWI,1998,Arable land (hectares),AG.LND.ARBL.HA,2600000
+Malawi,MWI,1997,Arable land (hectares),AG.LND.ARBL.HA,2450000
+Malawi,MWI,1996,Arable land (hectares),AG.LND.ARBL.HA,2400000
+Malawi,MWI,1995,Arable land (hectares),AG.LND.ARBL.HA,2300000
+Malawi,MWI,1994,Arable land (hectares),AG.LND.ARBL.HA,2100000
+Malawi,MWI,1993,Arable land (hectares),AG.LND.ARBL.HA,2300000
+Malawi,MWI,1992,Arable land (hectares),AG.LND.ARBL.HA,2300000
+Malawi,MWI,1991,Arable land (hectares),AG.LND.ARBL.HA,2350000
+Malawi,MWI,1990,Arable land (hectares),AG.LND.ARBL.HA,2250000
+Malawi,MWI,1989,Arable land (hectares),AG.LND.ARBL.HA,2200000
+Malawi,MWI,1988,Arable land (hectares),AG.LND.ARBL.HA,2150000
+Malawi,MWI,1987,Arable land (hectares),AG.LND.ARBL.HA,2150000
+Malawi,MWI,1986,Arable land (hectares),AG.LND.ARBL.HA,2150000
+Malawi,MWI,1985,Arable land (hectares),AG.LND.ARBL.HA,2050000
+Malawi,MWI,1984,Arable land (hectares),AG.LND.ARBL.HA,2050000
+Malawi,MWI,1983,Arable land (hectares),AG.LND.ARBL.HA,2000000
+Malawi,MWI,1982,Arable land (hectares),AG.LND.ARBL.HA,2100000
+Malawi,MWI,1981,Arable land (hectares),AG.LND.ARBL.HA,2000000
+Malawi,MWI,1980,Arable land (hectares),AG.LND.ARBL.HA,1900000
+Malawi,MWI,1979,Arable land (hectares),AG.LND.ARBL.HA,2050000
+Malawi,MWI,1978,Arable land (hectares),AG.LND.ARBL.HA,2050000
+Malawi,MWI,1977,Arable land (hectares),AG.LND.ARBL.HA,2000000
+Malawi,MWI,1976,Arable land (hectares),AG.LND.ARBL.HA,2000000
+Malawi,MWI,1975,Arable land (hectares),AG.LND.ARBL.HA,2000000
+Malawi,MWI,1974,Arable land (hectares),AG.LND.ARBL.HA,2050000
+Malawi,MWI,1973,Arable land (hectares),AG.LND.ARBL.HA,2050000
+Malawi,MWI,1972,Arable land (hectares),AG.LND.ARBL.HA,2000000
+Malawi,MWI,1971,Arable land (hectares),AG.LND.ARBL.HA,1950000
+Malawi,MWI,1970,Arable land (hectares),AG.LND.ARBL.HA,1800000
+Malawi,MWI,1969,Arable land (hectares),AG.LND.ARBL.HA,1850000
+Malawi,MWI,1968,Arable land (hectares),AG.LND.ARBL.HA,1800000
+Malawi,MWI,1967,Arable land (hectares),AG.LND.ARBL.HA,1700000
+Malawi,MWI,1966,Arable land (hectares),AG.LND.ARBL.HA,1750000
+Malawi,MWI,1965,Arable land (hectares),AG.LND.ARBL.HA,1700000
+Malawi,MWI,1964,Arable land (hectares),AG.LND.ARBL.HA,1500000
+Malawi,MWI,1963,Arable land (hectares),AG.LND.ARBL.HA,1450000
+Malawi,MWI,1962,Arable land (hectares),AG.LND.ARBL.HA,1400000
+Malawi,MWI,1961,Arable land (hectares),AG.LND.ARBL.HA,1300000
+Malawi,MWI,2016,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.22086231739554
+Malawi,MWI,2015,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.226929306683791
+Malawi,MWI,2014,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.233278533341027
+Malawi,MWI,2013,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.239910061505995
+Malawi,MWI,2012,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.243569679277189
+Malawi,MWI,2011,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.240607743077983
+Malawi,MWI,2010,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.254477217136193
+Malawi,MWI,2009,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.247732276436661
+Malawi,MWI,2008,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.251313202538773
+Malawi,MWI,2007,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.224857114546561
+Malawi,MWI,2006,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.254360764805781
+Malawi,MWI,2005,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.253446235182899
+Malawi,MWI,2004,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.243865997910231
+Malawi,MWI,2003,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.249996229223543
+Malawi,MWI,2002,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.243305595926262
+Malawi,MWI,2001,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.249300209937019
+Malawi,MWI,2000,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.246664247264135
+Malawi,MWI,1999,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.248748839402406
+Malawi,MWI,1998,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.246390894605537
+Malawi,MWI,1997,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.238677295242645
+Malawi,MWI,1996,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.239454307578459
+Malawi,MWI,1995,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.233635010307875
+Malawi,MWI,1994,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.215479868536758
+Malawi,MWI,1993,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.236861132746144
+Malawi,MWI,1992,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.23745678415581
+Malawi,MWI,1991,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.244782614809557
+Malawi,MWI,1990,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.239247168908501
+Malawi,MWI,1989,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.242408963313828
+Malawi,MWI,1988,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.248937961186519
+Malawi,MWI,1987,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.264090583807243
+Malawi,MWI,1986,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.280444866430632
+Malawi,MWI,1985,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.282047976498387
+Malawi,MWI,1984,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.294345395224741
+Malawi,MWI,1983,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.29682733138575
+Malawi,MWI,1982,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.31983015495771
+Malawi,MWI,1981,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.311896480310599
+Malawi,MWI,1980,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.303978599906567
+Malawi,MWI,1979,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.337421066102433
+Malawi,MWI,1978,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.34764234894304
+Malawi,MWI,1977,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.349775522813846
+Malawi,MWI,1976,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.360642961484594
+Malawi,MWI,1975,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.371416182045927
+Malawi,MWI,1974,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.391589572867465
+Malawi,MWI,1973,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.402484566680207
+Malawi,MWI,1972,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.403343800777203
+Malawi,MWI,1971,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.403802786860464
+Malawi,MWI,1970,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.382670795542821
+Malawi,MWI,1969,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.403736372806238
+Malawi,MWI,1968,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.403187601174889
+Malawi,MWI,1967,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.390763994178076
+Malawi,MWI,1966,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.412694092979743
+Malawi,MWI,1965,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.411178243349797
+Malawi,MWI,1964,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.371989581315807
+Malawi,MWI,1963,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.368590216141303
+Malawi,MWI,1962,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.364674216985848
+Malawi,MWI,1961,Arable land (hectares per person),AG.LND.ARBL.HA.PC,0.346874513875381
+Malawi,MWI,2016,Arable land (% of land area),AG.LND.ARBL.ZS,40.3054730589733
+Malawi,MWI,2015,Arable land (% of land area),AG.LND.ARBL.ZS,40.3054730589733
+Malawi,MWI,2014,Arable land (% of land area),AG.LND.ARBL.ZS,40.3054730589733
+Malawi,MWI,2013,Arable land (% of land area),AG.LND.ARBL.ZS,40.3054730589733
+Malawi,MWI,2012,Arable land (% of land area),AG.LND.ARBL.ZS,39.7751378871447
+Malawi,MWI,2011,Arable land (% of land area),AG.LND.ARBL.ZS,38.1841323716589
+Malawi,MWI,2010,Arable land (% of land area),AG.LND.ARBL.ZS,39.2448027153161
+Malawi,MWI,2009,Arable land (% of land area),AG.LND.ARBL.ZS,37.1234620280017
+Malawi,MWI,2008,Arable land (% of land area),AG.LND.ARBL.ZS,36.5931268561731
+Malawi,MWI,2007,Arable land (% of land area),AG.LND.ARBL.ZS,31.8201103097157
+Malawi,MWI,2006,Arable land (% of land area),AG.LND.ARBL.ZS,35.0021213406873
+Malawi,MWI,2005,Arable land (% of land area),AG.LND.ARBL.ZS,33.9414509970301
+Malawi,MWI,2004,Arable land (% of land area),AG.LND.ARBL.ZS,31.8201103097157
+Malawi,MWI,2003,Arable land (% of land area),AG.LND.ARBL.ZS,31.8201103097157
+Malawi,MWI,2002,Arable land (% of land area),AG.LND.ARBL.ZS,30.22910479423
+Malawi,MWI,2001,Arable land (% of land area),AG.LND.ARBL.ZS,30.22910479423
+Malawi,MWI,2000,Arable land (% of land area),AG.LND.ARBL.ZS,29.1684344505728
+Malawi,MWI,1999,Arable land (% of land area),AG.LND.ARBL.ZS,28.6380992787442
+Malawi,MWI,1998,Arable land (% of land area),AG.LND.ARBL.ZS,27.577428935087
+Malawi,MWI,1997,Arable land (% of land area),AG.LND.ARBL.ZS,25.9864234196012
+Malawi,MWI,1996,Arable land (% of land area),AG.LND.ARBL.ZS,25.4560882477726
+Malawi,MWI,1995,Arable land (% of land area),AG.LND.ARBL.ZS,24.3954179041154
+Malawi,MWI,1994,Arable land (% of land area),AG.LND.ARBL.ZS,22.274077216801
+Malawi,MWI,1993,Arable land (% of land area),AG.LND.ARBL.ZS,24.3954179041154
+Malawi,MWI,1992,Arable land (% of land area),AG.LND.ARBL.ZS,24.3954179041154
+Malawi,MWI,1991,Arable land (% of land area),AG.LND.ARBL.ZS,24.925753075944
+Malawi,MWI,1990,Arable land (% of land area),AG.LND.ARBL.ZS,23.8650827322868
+Malawi,MWI,1989,Arable land (% of land area),AG.LND.ARBL.ZS,23.3347475604582
+Malawi,MWI,1988,Arable land (% of land area),AG.LND.ARBL.ZS,22.8044123886296
+Malawi,MWI,1987,Arable land (% of land area),AG.LND.ARBL.ZS,22.8044123886296
+Malawi,MWI,1986,Arable land (% of land area),AG.LND.ARBL.ZS,22.8044123886296
+Malawi,MWI,1985,Arable land (% of land area),AG.LND.ARBL.ZS,21.7437420449724
+Malawi,MWI,1984,Arable land (% of land area),AG.LND.ARBL.ZS,21.7437420449724
+Malawi,MWI,1983,Arable land (% of land area),AG.LND.ARBL.ZS,21.2134068731438
+Malawi,MWI,1982,Arable land (% of land area),AG.LND.ARBL.ZS,22.274077216801
+Malawi,MWI,1981,Arable land (% of land area),AG.LND.ARBL.ZS,21.2134068731438
+Malawi,MWI,1980,Arable land (% of land area),AG.LND.ARBL.ZS,20.1527365294866
+Malawi,MWI,1979,Arable land (% of land area),AG.LND.ARBL.ZS,21.7437420449724
+Malawi,MWI,1978,Arable land (% of land area),AG.LND.ARBL.ZS,21.7437420449724
+Malawi,MWI,1977,Arable land (% of land area),AG.LND.ARBL.ZS,21.2134068731438
+Malawi,MWI,1976,Arable land (% of land area),AG.LND.ARBL.ZS,21.2134068731438
+Malawi,MWI,1975,Arable land (% of land area),AG.LND.ARBL.ZS,21.2134068731438
+Malawi,MWI,1974,Arable land (% of land area),AG.LND.ARBL.ZS,21.7437420449724
+Malawi,MWI,1973,Arable land (% of land area),AG.LND.ARBL.ZS,21.7437420449724
+Malawi,MWI,1972,Arable land (% of land area),AG.LND.ARBL.ZS,21.2134068731438
+Malawi,MWI,1971,Arable land (% of land area),AG.LND.ARBL.ZS,20.6830717013152
+Malawi,MWI,1970,Arable land (% of land area),AG.LND.ARBL.ZS,19.0920661858294
+Malawi,MWI,1969,Arable land (% of land area),AG.LND.ARBL.ZS,19.622401357658
+Malawi,MWI,1968,Arable land (% of land area),AG.LND.ARBL.ZS,19.0920661858294
+Malawi,MWI,1967,Arable land (% of land area),AG.LND.ARBL.ZS,18.0313958421723
+Malawi,MWI,1966,Arable land (% of land area),AG.LND.ARBL.ZS,18.5617310140008
+Malawi,MWI,1965,Arable land (% of land area),AG.LND.ARBL.ZS,18.0313958421723
+Malawi,MWI,1964,Arable land (% of land area),AG.LND.ARBL.ZS,15.9100551548579
+Malawi,MWI,1963,Arable land (% of land area),AG.LND.ARBL.ZS,15.3797199830293
+Malawi,MWI,1962,Arable land (% of land area),AG.LND.ARBL.ZS,14.8493848112007
+Malawi,MWI,1961,Arable land (% of land area),AG.LND.ARBL.ZS,13.7887144675435
+Malawi,MWI,2017,Land under cereal production (hectares),AG.LND.CREL.HA,1950168
+Malawi,MWI,2016,Land under cereal production (hectares),AG.LND.CREL.HA,1878999
+Malawi,MWI,2015,Land under cereal production (hectares),AG.LND.CREL.HA,1887160
+Malawi,MWI,2014,Land under cereal production (hectares),AG.LND.CREL.HA,1914565
+Malawi,MWI,2013,Land under cereal production (hectares),AG.LND.CREL.HA,1881457
+Malawi,MWI,2012,Land under cereal production (hectares),AG.LND.CREL.HA,1836365
+Malawi,MWI,2011,Land under cereal production (hectares),AG.LND.CREL.HA,1874110
+Malawi,MWI,2010,Land under cereal production (hectares),AG.LND.CREL.HA,1893306
+Malawi,MWI,2009,Land under cereal production (hectares),AG.LND.CREL.HA,1792559
+Malawi,MWI,2008,Land under cereal production (hectares),AG.LND.CREL.HA,1780115
+Malawi,MWI,2007,Land under cereal production (hectares),AG.LND.CREL.HA,1394461
+Malawi,MWI,2006,Land under cereal production (hectares),AG.LND.CREL.HA,1928661
+Malawi,MWI,2005,Land under cereal production (hectares),AG.LND.CREL.HA,1674520
+Malawi,MWI,2004,Land under cereal production (hectares),AG.LND.CREL.HA,1683258
+Malawi,MWI,2003,Land under cereal production (hectares),AG.LND.CREL.HA,1772695
+Malawi,MWI,2002,Land under cereal production (hectares),AG.LND.CREL.HA,1635836
+Malawi,MWI,2001,Land under cereal production (hectares),AG.LND.CREL.HA,1587166
+Malawi,MWI,2000,Land under cereal production (hectares),AG.LND.CREL.HA,1570308
+Malawi,MWI,1999,Land under cereal production (hectares),AG.LND.CREL.HA,1510012
+Malawi,MWI,1998,Land under cereal production (hectares),AG.LND.CREL.HA,1440111
+Malawi,MWI,1997,Land under cereal production (hectares),AG.LND.CREL.HA,1398670
+Malawi,MWI,1996,Land under cereal production (hectares),AG.LND.CREL.HA,1397520
+Malawi,MWI,1995,Land under cereal production (hectares),AG.LND.CREL.HA,1354371
+Malawi,MWI,1994,Land under cereal production (hectares),AG.LND.CREL.HA,1235750
+Malawi,MWI,1993,Land under cereal production (hectares),AG.LND.CREL.HA,1435514
+Malawi,MWI,1992,Land under cereal production (hectares),AG.LND.CREL.HA,1430215
+Malawi,MWI,1991,Land under cereal production (hectares),AG.LND.CREL.HA,1472227
+Malawi,MWI,1990,Land under cereal production (hectares),AG.LND.CREL.HA,1425342
+Malawi,MWI,1989,Land under cereal production (hectares),AG.LND.CREL.HA,1346350
+Malawi,MWI,1988,Land under cereal production (hectares),AG.LND.CREL.HA,1289876
+Malawi,MWI,1987,Land under cereal production (hectares),AG.LND.CREL.HA,1252805
+Malawi,MWI,1986,Land under cereal production (hectares),AG.LND.CREL.HA,1267145
+Malawi,MWI,1985,Land under cereal production (hectares),AG.LND.CREL.HA,1217173
+Malawi,MWI,1984,Land under cereal production (hectares),AG.LND.CREL.HA,1234173
+Malawi,MWI,1983,Land under cereal production (hectares),AG.LND.CREL.HA,1225333
+Malawi,MWI,1982,Land under cereal production (hectares),AG.LND.CREL.HA,1268200
+Malawi,MWI,1981,Land under cereal production (hectares),AG.LND.CREL.HA,1165560
+Malawi,MWI,1980,Land under cereal production (hectares),AG.LND.CREL.HA,1054000
+Malawi,MWI,1979,Land under cereal production (hectares),AG.LND.CREL.HA,1246400
+Malawi,MWI,1978,Land under cereal production (hectares),AG.LND.CREL.HA,1237200
+Malawi,MWI,1977,Land under cereal production (hectares),AG.LND.CREL.HA,1175200
+Malawi,MWI,1976,Land under cereal production (hectares),AG.LND.CREL.HA,1165440
+Malawi,MWI,1975,Land under cereal production (hectares),AG.LND.CREL.HA,1160300
+Malawi,MWI,1974,Land under cereal production (hectares),AG.LND.CREL.HA,1272260
+Malawi,MWI,1973,Land under cereal production (hectares),AG.LND.CREL.HA,1310300
+Malawi,MWI,1972,Land under cereal production (hectares),AG.LND.CREL.HA,1262400
+Malawi,MWI,1971,Land under cereal production (hectares),AG.LND.CREL.HA,1202300
+Malawi,MWI,1970,Land under cereal production (hectares),AG.LND.CREL.HA,1120300
+Malawi,MWI,1969,Land under cereal production (hectares),AG.LND.CREL.HA,1184300
+Malawi,MWI,1968,Land under cereal production (hectares),AG.LND.CREL.HA,1174300
+Malawi,MWI,1967,Land under cereal production (hectares),AG.LND.CREL.HA,972100
+Malawi,MWI,1966,Land under cereal production (hectares),AG.LND.CREL.HA,1128600
+Malawi,MWI,1965,Land under cereal production (hectares),AG.LND.CREL.HA,1110250
+Malawi,MWI,1964,Land under cereal production (hectares),AG.LND.CREL.HA,898056
+Malawi,MWI,1963,Land under cereal production (hectares),AG.LND.CREL.HA,890561
+Malawi,MWI,1962,Land under cereal production (hectares),AG.LND.CREL.HA,876100
+Malawi,MWI,1961,Land under cereal production (hectares),AG.LND.CREL.HA,878200
+Malawi,MWI,2016,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.48493848112007
+Malawi,MWI,2015,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.48493848112007
+Malawi,MWI,2014,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.48493848112007
+Malawi,MWI,2013,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.48493848112007
+Malawi,MWI,2012,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.43190496393721
+Malawi,MWI,2011,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.43190496393721
+Malawi,MWI,2010,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.43190496393721
+Malawi,MWI,2009,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.43190496393721
+Malawi,MWI,2008,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.43190496393721
+Malawi,MWI,2007,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.43190496393721
+Malawi,MWI,2006,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.43190496393721
+Malawi,MWI,2005,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,2004,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,2003,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,2002,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,2001,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,2000,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1999,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1998,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1997,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1996,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1995,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1994,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1993,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1992,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1991,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.37887144675435
+Malawi,MWI,1990,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.3576580398812
+Malawi,MWI,1989,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.32583792957149
+Malawi,MWI,1988,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.32583792957149
+Malawi,MWI,1987,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.27280441238863
+Malawi,MWI,1986,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.21977089520577
+Malawi,MWI,1985,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.21977089520577
+Malawi,MWI,1984,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.06067034365719
+Malawi,MWI,1983,Permanent cropland (% of land area),AG.LND.CROP.ZS,1.06067034365719
+Malawi,MWI,1982,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.954603309291472
+Malawi,MWI,1981,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.954603309291472
+Malawi,MWI,1980,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.954603309291472
+Malawi,MWI,1979,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.848536274925753
+Malawi,MWI,1978,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.827322868052609
+Malawi,MWI,1977,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.795502757742893
+Malawi,MWI,1976,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.763682647433178
+Malawi,MWI,1975,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.742469240560034
+Malawi,MWI,1974,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.742469240560034
+Malawi,MWI,1973,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.710649130250318
+Malawi,MWI,1972,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.710649130250318
+Malawi,MWI,1971,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.710649130250318
+Malawi,MWI,1970,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.710649130250318
+Malawi,MWI,1969,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.710649130250318
+Malawi,MWI,1968,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.710649130250318
+Malawi,MWI,1967,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.689435723377174
+Malawi,MWI,1966,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.668222316504031
+Malawi,MWI,1965,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.668222316504031
+Malawi,MWI,1964,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.636402206194315
+Malawi,MWI,1963,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.636402206194315
+Malawi,MWI,1962,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.636402206194315
+Malawi,MWI,1961,Permanent cropland (% of land area),AG.LND.CROP.ZS,0.636402206194315
+Malawi,MWI,2010,Rural land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.RU.K2,0
+Malawi,MWI,2000,Rural land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.RU.K2,0
+Malawi,MWI,1990,Rural land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.RU.K2,0
+Malawi,MWI,2010,Rural land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.RU.ZS,0
+Malawi,MWI,2000,Rural land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.RU.ZS,0
+Malawi,MWI,1990,Rural land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.RU.ZS,0
+Malawi,MWI,2016,Forest area (sq. km),AG.LND.FRST.K2,31290
+Malawi,MWI,2015,Forest area (sq. km),AG.LND.FRST.K2,31470
+Malawi,MWI,2014,Forest area (sq. km),AG.LND.FRST.K2,31650
+Malawi,MWI,2013,Forest area (sq. km),AG.LND.FRST.K2,31830
+Malawi,MWI,2012,Forest area (sq. km),AG.LND.FRST.K2,32010
+Malawi,MWI,2011,Forest area (sq. km),AG.LND.FRST.K2,32190
+Malawi,MWI,2010,Forest area (sq. km),AG.LND.FRST.K2,32370
+Malawi,MWI,2009,Forest area (sq. km),AG.LND.FRST.K2,32700
+Malawi,MWI,2008,Forest area (sq. km),AG.LND.FRST.K2,33030
+Malawi,MWI,2007,Forest area (sq. km),AG.LND.FRST.K2,33360
+Malawi,MWI,2006,Forest area (sq. km),AG.LND.FRST.K2,33690
+Malawi,MWI,2005,Forest area (sq. km),AG.LND.FRST.K2,34020
+Malawi,MWI,2004,Forest area (sq. km),AG.LND.FRST.K2,34350
+Malawi,MWI,2003,Forest area (sq. km),AG.LND.FRST.K2,34680
+Malawi,MWI,2002,Forest area (sq. km),AG.LND.FRST.K2,35010
+Malawi,MWI,2001,Forest area (sq. km),AG.LND.FRST.K2,35340
+Malawi,MWI,2000,Forest area (sq. km),AG.LND.FRST.K2,35670
+Malawi,MWI,1999,Forest area (sq. km),AG.LND.FRST.K2,35998.9990234375
+Malawi,MWI,1998,Forest area (sq. km),AG.LND.FRST.K2,36328.0004882813
+Malawi,MWI,1997,Forest area (sq. km),AG.LND.FRST.K2,36656.9995117188
+Malawi,MWI,1996,Forest area (sq. km),AG.LND.FRST.K2,36986.0009765625
+Malawi,MWI,1995,Forest area (sq. km),AG.LND.FRST.K2,37315
+Malawi,MWI,1994,Forest area (sq. km),AG.LND.FRST.K2,37643.9990234375
+Malawi,MWI,1993,Forest area (sq. km),AG.LND.FRST.K2,37973.0004882813
+Malawi,MWI,1992,Forest area (sq. km),AG.LND.FRST.K2,38301.9995117188
+Malawi,MWI,1991,Forest area (sq. km),AG.LND.FRST.K2,38631.0009765625
+Malawi,MWI,1990,Forest area (sq. km),AG.LND.FRST.K2,38960
+Malawi,MWI,2016,Forest area (% of land area),AG.LND.FRST.ZS,33.1883750530335
+Malawi,MWI,2015,Forest area (% of land area),AG.LND.FRST.ZS,33.3792957148918
+Malawi,MWI,2014,Forest area (% of land area),AG.LND.FRST.ZS,33.5702163767501
+Malawi,MWI,2013,Forest area (% of land area),AG.LND.FRST.ZS,33.7611370386084
+Malawi,MWI,2012,Forest area (% of land area),AG.LND.FRST.ZS,33.9520577004667
+Malawi,MWI,2011,Forest area (% of land area),AG.LND.FRST.ZS,34.142978362325
+Malawi,MWI,2010,Forest area (% of land area),AG.LND.FRST.ZS,34.3338990241833
+Malawi,MWI,2009,Forest area (% of land area),AG.LND.FRST.ZS,34.6839202375902
+Malawi,MWI,2008,Forest area (% of land area),AG.LND.FRST.ZS,35.033941450997
+Malawi,MWI,2007,Forest area (% of land area),AG.LND.FRST.ZS,35.3839626644039
+Malawi,MWI,2006,Forest area (% of land area),AG.LND.FRST.ZS,35.7339838778108
+Malawi,MWI,2005,Forest area (% of land area),AG.LND.FRST.ZS,36.0840050912176
+Malawi,MWI,2004,Forest area (% of land area),AG.LND.FRST.ZS,36.4340263046245
+Malawi,MWI,2003,Forest area (% of land area),AG.LND.FRST.ZS,36.7840475180314
+Malawi,MWI,2002,Forest area (% of land area),AG.LND.FRST.ZS,37.1340687314383
+Malawi,MWI,2001,Forest area (% of land area),AG.LND.FRST.ZS,37.4840899448451
+Malawi,MWI,2000,Forest area (% of land area),AG.LND.FRST.ZS,37.834111158252
+Malawi,MWI,1999,Forest area (% of land area),AG.LND.FRST.ZS,38.1830706655043
+Malawi,MWI,1998,Forest area (% of land area),AG.LND.FRST.ZS,38.5320327622839
+Malawi,MWI,1997,Forest area (% of land area),AG.LND.FRST.ZS,38.8809922695363
+Malawi,MWI,1996,Forest area (% of land area),AG.LND.FRST.ZS,39.2299543663158
+Malawi,MWI,1995,Forest area (% of land area),AG.LND.FRST.ZS,39.5789138735681
+Malawi,MWI,1994,Forest area (% of land area),AG.LND.FRST.ZS,39.9278733808204
+Malawi,MWI,1993,Forest area (% of land area),AG.LND.FRST.ZS,40.2768354776
+Malawi,MWI,1992,Forest area (% of land area),AG.LND.FRST.ZS,40.6257949848524
+Malawi,MWI,1991,Forest area (% of land area),AG.LND.FRST.ZS,40.9747570816318
+Malawi,MWI,1990,Forest area (% of land area),AG.LND.FRST.ZS,41.3237165888842
+Malawi,MWI,2008,Agricultural irrigated land (% of total agricultural land),AG.LND.IRIG.AG.ZS,0.533578656853726
+Malawi,MWI,2007,Agricultural irrigated land (% of total agricultural land),AG.LND.IRIG.AG.ZS,0.74222668004012
+Malawi,MWI,2006,Agricultural irrigated land (% of total agricultural land),AG.LND.IRIG.AG.ZS,0.529801324503311
+Malawi,MWI,2005,Agricultural irrigated land (% of total agricultural land),AG.LND.IRIG.AG.ZS,0.579150579150579
+Malawi,MWI,2014,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,2012,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,2007,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,2002,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1997,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1992,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1987,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1982,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1977,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1972,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1967,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,1962,Average precipitation in depth (mm per year),AG.LND.PRCP.MM,1181
+Malawi,MWI,2018,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2017,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2016,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2015,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2014,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2013,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2012,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2011,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2010,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2009,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2008,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2007,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2006,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2005,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2004,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2003,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2002,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2001,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2000,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1999,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1998,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1997,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1996,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1995,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1994,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1993,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1992,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1991,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1990,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1989,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1988,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1987,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1986,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1985,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1984,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1983,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1982,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1981,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1980,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1979,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1978,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1977,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1976,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1975,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1974,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1973,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1972,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1971,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1970,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1969,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1968,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1967,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1966,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1965,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1964,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1963,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1962,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,1961,Land area (sq. km),AG.LND.TOTL.K2,94280
+Malawi,MWI,2010,Rural land area (sq. km),AG.LND.TOTL.RU.K2,92909.46094
+Malawi,MWI,2000,Rural land area (sq. km),AG.LND.TOTL.RU.K2,92909.46094
+Malawi,MWI,1990,Rural land area (sq. km),AG.LND.TOTL.RU.K2,92909.46094
+Malawi,MWI,1968,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,3.84444444444445
+Malawi,MWI,1967,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,3.23529411764706
+Malawi,MWI,1966,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,2.57142857142857
+Malawi,MWI,1965,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,2.05882352941176
+Malawi,MWI,1964,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,1.43333333333333
+Malawi,MWI,1963,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,1.44827586206897
+Malawi,MWI,1962,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,1.42857142857143
+Malawi,MWI,1961,"Agricultural machinery, tractors per 100 sq. km of arable land",AG.LND.TRAC.ZS,1.52307692307692
+Malawi,MWI,2017,Cereal production (metric tons),AG.PRD.CREL.MT,3711454
+Malawi,MWI,2016,Cereal production (metric tons),AG.PRD.CREL.MT,2531749
+Malawi,MWI,2015,Cereal production (metric tons),AG.PRD.CREL.MT,3001731
+Malawi,MWI,2014,Cereal production (metric tons),AG.PRD.CREL.MT,4246674
+Malawi,MWI,2013,Cereal production (metric tons),AG.PRD.CREL.MT,3892310
+Malawi,MWI,2012,Cereal production (metric tons),AG.PRD.CREL.MT,3832659
+Malawi,MWI,2011,Cereal production (metric tons),AG.PRD.CREL.MT,3924971
+Malawi,MWI,2010,Cereal production (metric tons),AG.PRD.CREL.MT,3610283
+Malawi,MWI,2009,Cereal production (metric tons),AG.PRD.CREL.MT,3807971
+Malawi,MWI,2008,Cereal production (metric tons),AG.PRD.CREL.MT,2845840
+Malawi,MWI,2007,Cereal production (metric tons),AG.PRD.CREL.MT,3440138
+Malawi,MWI,2006,Cereal production (metric tons),AG.PRD.CREL.MT,2786281
+Malawi,MWI,2005,Cereal production (metric tons),AG.PRD.CREL.MT,1302379
+Malawi,MWI,2004,Cereal production (metric tons),AG.PRD.CREL.MT,1717993
+Malawi,MWI,2003,Cereal production (metric tons),AG.PRD.CREL.MT,2143179
+Malawi,MWI,2002,Cereal production (metric tons),AG.PRD.CREL.MT,1710577
+Malawi,MWI,2001,Cereal production (metric tons),AG.PRD.CREL.MT,1865675
+Malawi,MWI,2000,Cereal production (metric tons),AG.PRD.CREL.MT,2631034
+Malawi,MWI,1999,Cereal production (metric tons),AG.PRD.CREL.MT,2635519
+Malawi,MWI,1998,Cereal production (metric tons),AG.PRD.CREL.MT,1904024
+Malawi,MWI,1997,Cereal production (metric tons),AG.PRD.CREL.MT,1474809
+Malawi,MWI,1996,Cereal production (metric tons),AG.PRD.CREL.MT,1943377
+Malawi,MWI,1995,Cereal production (metric tons),AG.PRD.CREL.MT,1773119
+Malawi,MWI,1994,Cereal production (metric tons),AG.PRD.CREL.MT,1107716
+Malawi,MWI,1993,Cereal production (metric tons),AG.PRD.CREL.MT,2137147
+Malawi,MWI,1992,Cereal production (metric tons),AG.PRD.CREL.MT,688786
+Malawi,MWI,1991,Cereal production (metric tons),AG.PRD.CREL.MT,1679752
+Malawi,MWI,1990,Cereal production (metric tons),AG.PRD.CREL.MT,1413293
+Malawi,MWI,1989,Cereal production (metric tons),AG.PRD.CREL.MT,1587917
+Malawi,MWI,1988,Cereal production (metric tons),AG.PRD.CREL.MT,1491655
+Malawi,MWI,1987,Cereal production (metric tons),AG.PRD.CREL.MT,1255066
+Malawi,MWI,1986,Cereal production (metric tons),AG.PRD.CREL.MT,1363545
+Malawi,MWI,1985,Cereal production (metric tons),AG.PRD.CREL.MT,1422875
+Malawi,MWI,1984,Cereal production (metric tons),AG.PRD.CREL.MT,1457065
+Malawi,MWI,1983,Cereal production (metric tons),AG.PRD.CREL.MT,1404504
+Malawi,MWI,1982,Cereal production (metric tons),AG.PRD.CREL.MT,1482700
+Malawi,MWI,1981,Cereal production (metric tons),AG.PRD.CREL.MT,1307688
+Malawi,MWI,1980,Cereal production (metric tons),AG.PRD.CREL.MT,1251500
+Malawi,MWI,1979,Cereal production (metric tons),AG.PRD.CREL.MT,1464500
+Malawi,MWI,1978,Cereal production (metric tons),AG.PRD.CREL.MT,1542500
+Malawi,MWI,1977,Cereal production (metric tons),AG.PRD.CREL.MT,1526407
+Malawi,MWI,1976,Cereal production (metric tons),AG.PRD.CREL.MT,1293919
+Malawi,MWI,1975,Cereal production (metric tons),AG.PRD.CREL.MT,1177635
+Malawi,MWI,1974,Cereal production (metric tons),AG.PRD.CREL.MT,1441544
+Malawi,MWI,1973,Cereal production (metric tons),AG.PRD.CREL.MT,1446611
+Malawi,MWI,1972,Cereal production (metric tons),AG.PRD.CREL.MT,1451555
+Malawi,MWI,1971,Cereal production (metric tons),AG.PRD.CREL.MT,1362665
+Malawi,MWI,1970,Cereal production (metric tons),AG.PRD.CREL.MT,995286
+Malawi,MWI,1969,Cereal production (metric tons),AG.PRD.CREL.MT,1145565
+Malawi,MWI,1968,Cereal production (metric tons),AG.PRD.CREL.MT,1168730
+Malawi,MWI,1967,Cereal production (metric tons),AG.PRD.CREL.MT,1342764
+Malawi,MWI,1966,Cereal production (metric tons),AG.PRD.CREL.MT,1021611
+Malawi,MWI,1965,Cereal production (metric tons),AG.PRD.CREL.MT,950943
+Malawi,MWI,1964,Cereal production (metric tons),AG.PRD.CREL.MT,967017
+Malawi,MWI,1963,Cereal production (metric tons),AG.PRD.CREL.MT,780781
+Malawi,MWI,1962,Cereal production (metric tons),AG.PRD.CREL.MT,899751
+Malawi,MWI,1961,Cereal production (metric tons),AG.PRD.CREL.MT,864554
+Malawi,MWI,2016,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,138.41
+Malawi,MWI,2015,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,144.38
+Malawi,MWI,2014,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,157.18
+Malawi,MWI,2013,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,183.11
+Malawi,MWI,2012,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,170.68
+Malawi,MWI,2011,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,163.73
+Malawi,MWI,2010,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,156.45
+Malawi,MWI,2009,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,158.7
+Malawi,MWI,2008,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,135.9
+Malawi,MWI,2007,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,133.85
+Malawi,MWI,2006,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,117.15
+Malawi,MWI,2005,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,84.27
+Malawi,MWI,2004,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,98.58
+Malawi,MWI,2003,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,94.4
+Malawi,MWI,2002,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,81.98
+Malawi,MWI,2001,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,106.12
+Malawi,MWI,2000,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,98.61
+Malawi,MWI,1999,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,84.16
+Malawi,MWI,1998,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,74.46
+Malawi,MWI,1997,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,66.31
+Malawi,MWI,1996,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,67.56
+Malawi,MWI,1995,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,58.48
+Malawi,MWI,1994,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,47.09
+Malawi,MWI,1993,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,59.34
+Malawi,MWI,1992,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,44.6
+Malawi,MWI,1991,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,55.85
+Malawi,MWI,1990,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,50.7
+Malawi,MWI,1989,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,50.25
+Malawi,MWI,1988,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,50.03
+Malawi,MWI,1987,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,47.28
+Malawi,MWI,1986,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,47.77
+Malawi,MWI,1985,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,47.72
+Malawi,MWI,1984,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,46.96
+Malawi,MWI,1983,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,45.02
+Malawi,MWI,1982,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,47.46
+Malawi,MWI,1981,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,44.62
+Malawi,MWI,1980,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,43.1
+Malawi,MWI,1979,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,44.1
+Malawi,MWI,1978,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,44.4
+Malawi,MWI,1977,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,43.75
+Malawi,MWI,1976,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,39.58
+Malawi,MWI,1975,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,37.11
+Malawi,MWI,1974,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,37.6
+Malawi,MWI,1973,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,37.74
+Malawi,MWI,1972,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,35.69
+Malawi,MWI,1971,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,33.82
+Malawi,MWI,1970,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,28
+Malawi,MWI,1969,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,28.82
+Malawi,MWI,1968,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,28.27
+Malawi,MWI,1967,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,30.09
+Malawi,MWI,1966,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,26.18
+Malawi,MWI,1965,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,25.91
+Malawi,MWI,1964,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,24.16
+Malawi,MWI,1963,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,22.82
+Malawi,MWI,1962,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,23.66
+Malawi,MWI,1961,Crop production index (2004-2006 = 100),AG.PRD.CROP.XD,21.96
+Malawi,MWI,2016,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,147.18
+Malawi,MWI,2015,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,150.41
+Malawi,MWI,2014,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,163.59
+Malawi,MWI,2013,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,192.35
+Malawi,MWI,2012,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,180.33
+Malawi,MWI,2011,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,164.99
+Malawi,MWI,2010,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,156.22
+Malawi,MWI,2009,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,154.86
+Malawi,MWI,2008,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,135.7
+Malawi,MWI,2007,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,135.05
+Malawi,MWI,2006,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,115.73
+Malawi,MWI,2005,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,85.86
+Malawi,MWI,2004,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,98.41
+Malawi,MWI,2003,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,95.15
+Malawi,MWI,2002,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,82.69
+Malawi,MWI,2001,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,110.63
+Malawi,MWI,2000,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,99.74
+Malawi,MWI,1999,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,83.49
+Malawi,MWI,1998,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,70.81
+Malawi,MWI,1997,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,58.62
+Malawi,MWI,1996,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,61.28
+Malawi,MWI,1995,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,51.55
+Malawi,MWI,1994,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,43.62
+Malawi,MWI,1993,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,51.77
+Malawi,MWI,1992,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,39
+Malawi,MWI,1991,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,50.53
+Malawi,MWI,1990,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,46.21
+Malawi,MWI,1989,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,48.05
+Malawi,MWI,1988,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,49.18
+Malawi,MWI,1987,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,47.42
+Malawi,MWI,1986,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,48.04
+Malawi,MWI,1985,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,45.44
+Malawi,MWI,1984,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,45.9
+Malawi,MWI,1983,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,44.67
+Malawi,MWI,1982,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,48.27
+Malawi,MWI,1981,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,45.9
+Malawi,MWI,1980,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,43.09
+Malawi,MWI,1979,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,43.33
+Malawi,MWI,1978,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,44.18
+Malawi,MWI,1977,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,43.2
+Malawi,MWI,1976,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,40.21
+Malawi,MWI,1975,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,37.51
+Malawi,MWI,1974,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,38.64
+Malawi,MWI,1973,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,38.42
+Malawi,MWI,1972,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,36
+Malawi,MWI,1971,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,34.51
+Malawi,MWI,1970,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,29
+Malawi,MWI,1969,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,31.1
+Malawi,MWI,1968,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,29.99
+Malawi,MWI,1967,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,31.6
+Malawi,MWI,1966,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,27.05
+Malawi,MWI,1965,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,26.15
+Malawi,MWI,1964,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,25.36
+Malawi,MWI,1963,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,23.67
+Malawi,MWI,1962,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,23.98
+Malawi,MWI,1961,Food production index (2004-2006 = 100),AG.PRD.FOOD.XD,22.8
+Malawi,MWI,2016,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,243.73
+Malawi,MWI,2015,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,245.5
+Malawi,MWI,2014,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,241.84
+Malawi,MWI,2013,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,239.25
+Malawi,MWI,2012,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,205.15
+Malawi,MWI,2011,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,181.45
+Malawi,MWI,2010,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,159.11
+Malawi,MWI,2009,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,159.12
+Malawi,MWI,2008,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,144.09
+Malawi,MWI,2007,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,123.33
+Malawi,MWI,2006,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,104.93
+Malawi,MWI,2005,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,96.31
+Malawi,MWI,2004,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,98.76
+Malawi,MWI,2003,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,89.61
+Malawi,MWI,2002,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,85.74
+Malawi,MWI,2001,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,97.7
+Malawi,MWI,2000,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,92.47
+Malawi,MWI,1999,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,82.27
+Malawi,MWI,1998,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,82.01
+Malawi,MWI,1997,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,76.61
+Malawi,MWI,1996,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,85.22
+Malawi,MWI,1995,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,70.38
+Malawi,MWI,1994,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,66.34
+Malawi,MWI,1993,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,71.13
+Malawi,MWI,1992,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,71.27
+Malawi,MWI,1991,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,69.84
+Malawi,MWI,1990,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,61.19
+Malawi,MWI,1989,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,59.17
+Malawi,MWI,1988,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,59.25
+Malawi,MWI,1987,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,61.4
+Malawi,MWI,1986,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,60.5
+Malawi,MWI,1985,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,48.05
+Malawi,MWI,1984,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,54.31
+Malawi,MWI,1983,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,54.14
+Malawi,MWI,1982,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,57.81
+Malawi,MWI,1981,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,55.43
+Malawi,MWI,1980,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,46.62
+Malawi,MWI,1979,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,43.93
+Malawi,MWI,1978,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,44.83
+Malawi,MWI,1977,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,42.86
+Malawi,MWI,1976,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,40.38
+Malawi,MWI,1975,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,37.31
+Malawi,MWI,1974,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,35.99
+Malawi,MWI,1973,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,33.86
+Malawi,MWI,1972,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,31.64
+Malawi,MWI,1971,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,31.19
+Malawi,MWI,1970,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,32.08
+Malawi,MWI,1969,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,31.81
+Malawi,MWI,1968,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,27.12
+Malawi,MWI,1967,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,25.85
+Malawi,MWI,1966,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,22.26
+Malawi,MWI,1965,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,21.2
+Malawi,MWI,1964,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,20.98
+Malawi,MWI,1963,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,20.61
+Malawi,MWI,1962,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,18.85
+Malawi,MWI,1961,Livestock production index (2004-2006 = 100),AG.PRD.LVSK.XD,17.96
+Malawi,MWI,2018,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2017,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2016,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2015,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2014,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2013,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2012,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2011,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2010,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2009,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2008,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2007,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2006,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2005,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2004,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2003,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2002,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2001,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2000,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1999,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1998,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1997,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1996,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1995,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1994,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1993,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1992,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1991,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1990,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1989,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1988,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1987,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1986,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1985,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1984,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1983,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1982,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1981,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1980,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1979,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1978,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1977,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1976,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1975,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1974,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1973,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1972,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1971,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1970,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1969,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1968,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1967,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1966,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1965,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1964,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1963,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1962,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,1961,Surface area (sq. km),AG.SRF.TOTL.K2,118480
+Malawi,MWI,2017,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1903.1
+Malawi,MWI,2016,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1347.4
+Malawi,MWI,2015,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1590.6
+Malawi,MWI,2014,Cereal yield (kg per hectare),AG.YLD.CREL.KG,2218.1
+Malawi,MWI,2013,Cereal yield (kg per hectare),AG.YLD.CREL.KG,2068.8
+Malawi,MWI,2012,Cereal yield (kg per hectare),AG.YLD.CREL.KG,2087.1
+Malawi,MWI,2011,Cereal yield (kg per hectare),AG.YLD.CREL.KG,2094.3
+Malawi,MWI,2010,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1906.9
+Malawi,MWI,2009,Cereal yield (kg per hectare),AG.YLD.CREL.KG,2124.3
+Malawi,MWI,2008,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1598.7
+Malawi,MWI,2007,Cereal yield (kg per hectare),AG.YLD.CREL.KG,2467
+Malawi,MWI,2006,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1444.7
+Malawi,MWI,2005,Cereal yield (kg per hectare),AG.YLD.CREL.KG,777.8
+Malawi,MWI,2004,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1020.6
+Malawi,MWI,2003,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1209
+Malawi,MWI,2002,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1045.7
+Malawi,MWI,2001,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1175.5
+Malawi,MWI,2000,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1675.5
+Malawi,MWI,1999,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1745.4
+Malawi,MWI,1998,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1322.1
+Malawi,MWI,1997,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1054.4
+Malawi,MWI,1996,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1390.6
+Malawi,MWI,1995,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1309.2
+Malawi,MWI,1994,Cereal yield (kg per hectare),AG.YLD.CREL.KG,896.4
+Malawi,MWI,1993,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1488.8
+Malawi,MWI,1992,Cereal yield (kg per hectare),AG.YLD.CREL.KG,481.6
+Malawi,MWI,1991,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1141
+Malawi,MWI,1990,Cereal yield (kg per hectare),AG.YLD.CREL.KG,991.5
+Malawi,MWI,1989,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1179.4
+Malawi,MWI,1988,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1156.4
+Malawi,MWI,1987,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1001.8
+Malawi,MWI,1986,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1076.1
+Malawi,MWI,1985,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1169
+Malawi,MWI,1984,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1180.6
+Malawi,MWI,1983,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1146.2
+Malawi,MWI,1982,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1169.1
+Malawi,MWI,1981,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1121.9
+Malawi,MWI,1980,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1187.4
+Malawi,MWI,1979,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1175
+Malawi,MWI,1978,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1246.8
+Malawi,MWI,1977,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1298.8
+Malawi,MWI,1976,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1110.2
+Malawi,MWI,1975,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1014.9
+Malawi,MWI,1974,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1133.1
+Malawi,MWI,1973,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1104
+Malawi,MWI,1972,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1149.8
+Malawi,MWI,1971,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1133.4
+Malawi,MWI,1970,Cereal yield (kg per hectare),AG.YLD.CREL.KG,888.4
+Malawi,MWI,1969,Cereal yield (kg per hectare),AG.YLD.CREL.KG,967.3
+Malawi,MWI,1968,Cereal yield (kg per hectare),AG.YLD.CREL.KG,995.3
+Malawi,MWI,1967,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1381.3
+Malawi,MWI,1966,Cereal yield (kg per hectare),AG.YLD.CREL.KG,905.2
+Malawi,MWI,1965,Cereal yield (kg per hectare),AG.YLD.CREL.KG,856.5
+Malawi,MWI,1964,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1076.8
+Malawi,MWI,1963,Cereal yield (kg per hectare),AG.YLD.CREL.KG,876.7
+Malawi,MWI,1962,Cereal yield (kg per hectare),AG.YLD.CREL.KG,1027
+Malawi,MWI,1961,Cereal yield (kg per hectare),AG.YLD.CREL.KG,984.5
+Malawi,MWI,2017,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,3.70944857013131
+Malawi,MWI,2016,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,4.8715844950607
+Malawi,MWI,2015,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,3.41219990801549
+Malawi,MWI,2014,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,5.32163384291191
+Malawi,MWI,2013,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,3.75615176548623
+Malawi,MWI,2012,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,1.82181273773707
+Malawi,MWI,2011,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,2.95385702940359
+Malawi,MWI,2010,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,3.91473962884798
+Malawi,MWI,2009,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,2.54923393924849
+Malawi,MWI,2008,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,2.42139265381958
+Malawi,MWI,2007,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,2.31387981845161
+Malawi,MWI,2006,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.0991115233177971
+Malawi,MWI,2005,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,2.10993777798673
+Malawi,MWI,2004,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,2.79984089722462
+Malawi,MWI,2003,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.792392526959451
+Malawi,MWI,2002,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,1.62242179487362
+Malawi,MWI,2001,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,1.40117956104979
+Malawi,MWI,2000,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.710773315072617
+Malawi,MWI,1999,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.910177079934218
+Malawi,MWI,1998,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.667784132692717
+Malawi,MWI,1997,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.490988024475786
+Malawi,MWI,1996,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.312029500203726
+Malawi,MWI,1995,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.131182845344368
+Malawi,MWI,1994,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0
+Malawi,MWI,1993,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0
+Malawi,MWI,1992,"Access to electricity, rural (% of rural population)",EG.ELC.ACCS.RU.ZS,0.889516821333483
+Malawi,MWI,2008,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1589.88682149616
+Malawi,MWI,2007,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1600.36757549115
+Malawi,MWI,2006,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1608.43617246574
+Malawi,MWI,2005,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1643.80068367633
+Malawi,MWI,2004,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1540.42930652183
+Malawi,MWI,2003,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1667.88591925574
+Malawi,MWI,2002,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1604.52463460347
+Malawi,MWI,2001,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1570.93799968176
+Malawi,MWI,2000,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1633.50664344634
+Malawi,MWI,1999,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1561.37632266729
+Malawi,MWI,1998,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1808.28227896635
+Malawi,MWI,1997,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1536.59253817626
+Malawi,MWI,1996,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1670.06872708448
+Malawi,MWI,1995,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1891.00487793525
+Malawi,MWI,1994,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1825.35694823779
+Malawi,MWI,1993,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1680.362347261
+Malawi,MWI,1992,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,2744.98995353248
+Malawi,MWI,1991,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1864.95967289006
+Malawi,MWI,1990,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,2217.61807940765
+Malawi,MWI,1989,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1683.21703060636
+Malawi,MWI,1988,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1530.47718981203
+Malawi,MWI,1987,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,2222.53814463572
+Malawi,MWI,1986,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1716.99892738109
+Malawi,MWI,1985,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1763.36909139602
+Malawi,MWI,1984,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1642.60607262571
+Malawi,MWI,1983,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1947.2502678733
+Malawi,MWI,1982,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1945.67000573684
+Malawi,MWI,1981,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1721.82878612764
+Malawi,MWI,1980,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1922.68587730682
+Malawi,MWI,1979,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,2291.76934041286
+Malawi,MWI,1978,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1808.50028671447
+Malawi,MWI,1977,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1714.32978165104
+Malawi,MWI,1976,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1508.41505773412
+Malawi,MWI,1975,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1592.8807735677
+Malawi,MWI,1974,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1361.57490985531
+Malawi,MWI,1973,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1483.00967812619
+Malawi,MWI,1972,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1383.57964162728
+Malawi,MWI,1971,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,1212.96997035304
+Malawi,MWI,1970,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,2096.39684531548
+Malawi,MWI,1969,Agricultural methane emissions (thousand metric tons of CO2 equivalent),EN.ATM.METH.AG.KT.CE,0
+Malawi,MWI,2008,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,37.8548086528481
+Malawi,MWI,2007,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,38.4199482287947
+Malawi,MWI,2006,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,38.9944717649362
+Malawi,MWI,2005,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,39.9366544301614
+Malawi,MWI,2004,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,38.7923652346494
+Malawi,MWI,2003,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,41.0747626404836
+Malawi,MWI,2002,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,40.5428702901625
+Malawi,MWI,2001,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,40.4281798798625
+Malawi,MWI,2000,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,41.7964772748435
+Malawi,MWI,1999,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,41.3460666532664
+Malawi,MWI,1998,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,45.6294718094346
+Malawi,MWI,1997,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,42.5022553515668
+Malawi,MWI,1996,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,45.3017932013346
+Malawi,MWI,1995,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,48.8128487150263
+Malawi,MWI,1994,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,48.054425098138
+Malawi,MWI,1993,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,46.9271403031454
+Malawi,MWI,1992,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,59.0822301424323
+Malawi,MWI,1991,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,50.0735593240879
+Malawi,MWI,1990,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,54.7965920288522
+Malawi,MWI,1989,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,48.3773414748834
+Malawi,MWI,1988,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,47.1653288775078
+Malawi,MWI,1987,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,57.6839143057732
+Malawi,MWI,1986,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,52.6179976152138
+Malawi,MWI,1985,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,54.5286436990085
+Malawi,MWI,1984,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,53.5530547762884
+Malawi,MWI,1983,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,58.3056195522781
+Malawi,MWI,1982,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,58.7728706547017
+Malawi,MWI,1981,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,56.3504938891152
+Malawi,MWI,1980,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,59.9253188375402
+Malawi,MWI,1979,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,64.6968467109935
+Malawi,MWI,1978,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,59.6947526295551
+Malawi,MWI,1977,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,58.7946930900729
+Malawi,MWI,1976,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,54.4416594266474
+Malawi,MWI,1975,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,56.3759803206451
+Malawi,MWI,1974,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,54.7120456259014
+Malawi,MWI,1973,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,57.2687899923614
+Malawi,MWI,1972,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,54.7947993135609
+Malawi,MWI,1971,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,52.1543760605503
+Malawi,MWI,1970,Agricultural methane emissions (% of total),EN.ATM.METH.AG.ZS,65.7305446612032
+Malawi,MWI,2008,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2320.54809
+Malawi,MWI,2007,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2317.21993
+Malawi,MWI,2006,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2303.17538
+Malawi,MWI,2005,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2301.23199
+Malawi,MWI,2004,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2162.381223
+Malawi,MWI,2003,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2304.483394
+Malawi,MWI,2002,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2213.989341
+Malawi,MWI,2001,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1505.966081
+Malawi,MWI,2000,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1710.056131
+Malawi,MWI,1999,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1620.612978
+Malawi,MWI,1998,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1960.219683
+Malawi,MWI,1997,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1734.822744
+Malawi,MWI,1996,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1820.016355
+Malawi,MWI,1995,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2047.326304
+Malawi,MWI,1994,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1848.568254
+Malawi,MWI,1993,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1835.65694
+Malawi,MWI,1992,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,3223.011565
+Malawi,MWI,1991,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2062.414593
+Malawi,MWI,1990,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2389.219848
+Malawi,MWI,1989,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1728.296283
+Malawi,MWI,1988,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1523.674676
+Malawi,MWI,1987,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2287.356359
+Malawi,MWI,1986,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1630.527894
+Malawi,MWI,1985,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1637.376197
+Malawi,MWI,1984,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1594.233745
+Malawi,MWI,1983,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2015.479105
+Malawi,MWI,1982,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2029.987043
+Malawi,MWI,1981,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1786.448625
+Malawi,MWI,1980,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1982.316824
+Malawi,MWI,1979,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2372.056946
+Malawi,MWI,1978,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1817.892235
+Malawi,MWI,1977,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1677.419796
+Malawi,MWI,1976,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1473.533912
+Malawi,MWI,1975,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1592.878859
+Malawi,MWI,1974,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1275.30497
+Malawi,MWI,1973,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1494.23937
+Malawi,MWI,1972,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1350.845088
+Malawi,MWI,1971,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,1215.69538
+Malawi,MWI,1970,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,2353.553542
+Malawi,MWI,1969,Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent),EN.ATM.NOXE.AG.KT.CE,0
+Malawi,MWI,2008,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.3609026843342
+Malawi,MWI,2007,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.490872658692
+Malawi,MWI,2006,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.6042106184922
+Malawi,MWI,2005,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.6481302006175
+Malawi,MWI,2004,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.6012500092039
+Malawi,MWI,2003,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.9021495709409
+Malawi,MWI,2002,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.9105793450881
+Malawi,MWI,2001,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,81.0323648725288
+Malawi,MWI,2000,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,82.629466024362
+Malawi,MWI,1999,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,81.9852897126789
+Malawi,MWI,1998,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,83.7271134733179
+Malawi,MWI,1997,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,83.3488834840837
+Malawi,MWI,1996,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,83.4862534696942
+Malawi,MWI,1995,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.0839123089126
+Malawi,MWI,1994,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,83.2080758862042
+Malawi,MWI,1993,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.8379096672517
+Malawi,MWI,1992,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,86.9146011151888
+Malawi,MWI,1991,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.3036398885005
+Malawi,MWI,1990,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.601355021075
+Malawi,MWI,1989,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.3430165096088
+Malawi,MWI,1988,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.0351180746951
+Malawi,MWI,1987,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,86.4971349593572
+Malawi,MWI,1986,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.4588073582312
+Malawi,MWI,1985,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.5486419073225
+Malawi,MWI,1984,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.6873563946155
+Malawi,MWI,1983,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,86.2199611439332
+Malawi,MWI,1982,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,86.1325184409626
+Malawi,MWI,1981,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.8466175964534
+Malawi,MWI,1980,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,86.0293528462897
+Malawi,MWI,1979,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,86.4336322971263
+Malawi,MWI,1978,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.7673131206763
+Malawi,MWI,1977,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,85.3550408237952
+Malawi,MWI,1976,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.2018079172106
+Malawi,MWI,1975,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.4312810148214
+Malawi,MWI,1974,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.1172152633796
+Malawi,MWI,1973,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,84.9020481639095
+Malawi,MWI,1972,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,83.833662634887
+Malawi,MWI,1971,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,83.276486314882
+Malawi,MWI,1970,Agricultural nitrous oxide emissions (% of total),EN.ATM.NOXE.AG.ZS,86.2355428036602
+Malawi,MWI,2010,Rural population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.RU.ZS,0
+Malawi,MWI,2000,Rural population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.RU.ZS,0
+Malawi,MWI,1990,Rural population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.RU.ZS,0
+Malawi,MWI,2005,"Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)",ER.H2O.FWAG.ZS,85.92
+Malawi,MWI,2002,"Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)",ER.H2O.FWAG.ZS,88
+Malawi,MWI,1994,"Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)",ER.H2O.FWAG.ZS,86.43
+Malawi,MWI,2017,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1644965406.74885
+Malawi,MWI,2016,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1408626680.8727
+Malawi,MWI,2015,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1751436832.79898
+Malawi,MWI,2014,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1735885672.44016
+Malawi,MWI,2013,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1582464124.34658
+Malawi,MWI,2012,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1705394503.54468
+Malawi,MWI,2011,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,2302941540.61419
+Malawi,MWI,2010,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,2061093106.56689
+Malawi,MWI,2009,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1883898420.94712
+Malawi,MWI,2008,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1595016321.20647
+Malawi,MWI,2007,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1219557679.37792
+Malawi,MWI,2006,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1234081867.60873
+Malawi,MWI,2005,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1203327182.58526
+Malawi,MWI,2004,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1206689623.06598
+Malawi,MWI,2003,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1162326314.49316
+Malawi,MWI,2002,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,1356993804.38766
+Malawi,MWI,2001,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,605628105.20615
+Malawi,MWI,2000,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,621749216.543116
+Malawi,MWI,1999,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,610918436.040564
+Malawi,MWI,1998,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,563521609.000827
+Malawi,MWI,1997,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,807239506.938617
+Malawi,MWI,1996,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,716653107.750596
+Malawi,MWI,1995,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,375416999.810255
+Malawi,MWI,1994,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,264028993.635823
+Malawi,MWI,1993,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,927289293.177069
+Malawi,MWI,1992,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,628617434.018816
+Malawi,MWI,1991,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,873657689.152071
+Malawi,MWI,1990,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,723769907.288651
+Malawi,MWI,1989,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,644747889.110346
+Malawi,MWI,1988,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,599296333.892945
+Malawi,MWI,1987,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,509539321.772989
+Malawi,MWI,1986,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,459028316.586965
+Malawi,MWI,1985,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,431430574.13763
+Malawi,MWI,1984,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,454905971.416443
+Malawi,MWI,1983,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,467115594.143684
+Malawi,MWI,1982,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,439343628.612032
+Malawi,MWI,1981,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,444958561.376075
+Malawi,MWI,1980,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,485529983.992119
+Malawi,MWI,1979,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,519535071.612192
+Malawi,MWI,1978,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,349531824.108095
+Malawi,MWI,1977,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,316535607.486986
+Malawi,MWI,1976,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,248302300.109529
+Malawi,MWI,1975,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,213243806.436675
+Malawi,MWI,1974,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,212077983.83262
+Malawi,MWI,1973,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,172952520.444282
+Malawi,MWI,1972,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,172654690.618762
+Malawi,MWI,1971,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,150559634.131664
+Malawi,MWI,1970,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,119044761.790472
+Malawi,MWI,1969,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,110884435.377415
+Malawi,MWI,1968,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,103924156.966279
+Malawi,MWI,1967,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,118751726.04253
+Malawi,MWI,1966,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,119557608.847823
+Malawi,MWI,1965,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,110037799.244015
+Malawi,MWI,1964,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,93658126.8374632
+Malawi,MWI,1963,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,93938121.2375752
+Malawi,MWI,1962,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,89038219.2356153
+Malawi,MWI,1961,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,84838303.2339353
+Malawi,MWI,1960,"Agriculture, forestry, and fishing, value added (current US$)",NV.AGR.TOTL.CD,78818423.6315274
+Malawi,MWI,2017,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,26.0969242390109
+Malawi,MWI,2016,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,25.9270434125021
+Malawi,MWI,2015,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,27.4812238583409
+Malawi,MWI,2014,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,28.702698759338
+Malawi,MWI,2013,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,28.673642187669
+Malawi,MWI,2012,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,28.2889262394967
+Malawi,MWI,2011,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,28.7723804157092
+Malawi,MWI,2010,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,29.6148722529818
+Malawi,MWI,2009,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,30.4290029672226
+Malawi,MWI,2008,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,29.9758065486818
+Malawi,MWI,2007,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,27.5112790183583
+Malawi,MWI,2006,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,30.8673246525606
+Malawi,MWI,2005,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,32.9145764838685
+Malawi,MWI,2004,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,34.7139476057526
+Malawi,MWI,2003,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,36.2226652993251
+Malawi,MWI,2002,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,38.8184059615834
+Malawi,MWI,2001,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,35.2826737728984
+Malawi,MWI,2000,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,35.6608481454938
+Malawi,MWI,1999,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,34.4000768621901
+Malawi,MWI,1998,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,32.1904874946576
+Malawi,MWI,1997,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,30.3104880708821
+Malawi,MWI,1996,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,31.4179037435869
+Malawi,MWI,1995,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,26.8642791408043
+Malawi,MWI,1994,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,22.3412094813174
+Malawi,MWI,1993,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,44.7828046163217
+Malawi,MWI,1992,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,34.932562766919
+Malawi,MWI,1991,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,39.6478106642522
+Malawi,MWI,1990,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,38.4826059742569
+Malawi,MWI,1989,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,40.544684393252
+Malawi,MWI,1988,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,43.4296542553192
+Malawi,MWI,1987,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,43.0683670735908
+Malawi,MWI,1986,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,38.7805892232966
+Malawi,MWI,1985,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,38.1342125559155
+Malawi,MWI,1984,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,37.6574989842743
+Malawi,MWI,1983,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,38.1884090597362
+Malawi,MWI,1982,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,37.229222864483
+Malawi,MWI,1981,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,35.9508528111181
+Malawi,MWI,1980,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,39.2298179285643
+Malawi,MWI,1979,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,49.0929091960671
+Malawi,MWI,1978,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,36.8302735106782
+Malawi,MWI,1977,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,39.2582417582418
+Malawi,MWI,1976,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,37.0424836601307
+Malawi,MWI,1975,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,34.7744006041155
+Malawi,MWI,1974,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,38.6565547128927
+Malawi,MWI,1973,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,38.9285714285714
+Malawi,MWI,1972,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,42.5192012288787
+Malawi,MWI,1971,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,41.2055335968379
+Malawi,MWI,1970,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,40.9748038000826
+Malawi,MWI,1969,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,41.7155756207675
+Malawi,MWI,1968,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,42.3886441507587
+Malawi,MWI,1967,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,44.0122824974411
+Malawi,MWI,1966,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,45.9139784946237
+Malawi,MWI,1965,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,47.9560707748627
+Malawi,MWI,1964,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,48.0948957584472
+Malawi,MWI,1963,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,49.2296404988995
+Malawi,MWI,1962,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,48.6238532110092
+Malawi,MWI,1961,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,48.5966319165998
+Malawi,MWI,1960,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,48.3676975945017
+Malawi,MWI,2019,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,43.3489990234375
+Malawi,MWI,2018,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,43.9869995117188
+Malawi,MWI,2017,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,44.6759986877441
+Malawi,MWI,2016,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,45.4210014343262
+Malawi,MWI,2015,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,45.9799995422363
+Malawi,MWI,2014,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,46.5480003356934
+Malawi,MWI,2013,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,47.4389991760254
+Malawi,MWI,2012,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,48.2490005493164
+Malawi,MWI,2011,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,48.7080001831055
+Malawi,MWI,2010,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,49.4519996643066
+Malawi,MWI,2009,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,50.359001159668
+Malawi,MWI,2008,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,51.4160003662109
+Malawi,MWI,2007,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,52.4329986572266
+Malawi,MWI,2006,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,53.4809989929199
+Malawi,MWI,2005,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,54.1030006408691
+Malawi,MWI,2004,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,54.6100006103516
+Malawi,MWI,2003,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,55.3530006408691
+Malawi,MWI,2002,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,56.0589981079102
+Malawi,MWI,2001,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,56.4280014038086
+Malawi,MWI,2000,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,56.076000213623
+Malawi,MWI,1999,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,56.3810005187988
+Malawi,MWI,1998,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,56.7599983215332
+Malawi,MWI,1997,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,57.1669998168945
+Malawi,MWI,1996,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,57.4830017089844
+Malawi,MWI,1995,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,58.0559997558594
+Malawi,MWI,1994,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,58.7109985351563
+Malawi,MWI,1993,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,58.6940002441406
+Malawi,MWI,1992,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,59.1279983520508
+Malawi,MWI,1991,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,58.9669990539551
+Malawi,MWI,2019,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,43.9300003051758
+Malawi,MWI,2018,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,44.2649993896484
+Malawi,MWI,2017,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,44.5909996032715
+Malawi,MWI,2016,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,44.9309997558594
+Malawi,MWI,2015,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,45.1769981384277
+Malawi,MWI,2014,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,45.4659996032715
+Malawi,MWI,2013,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,45.8810005187988
+Malawi,MWI,2012,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,46.2830009460449
+Malawi,MWI,2011,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,46.3950004577637
+Malawi,MWI,2010,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,46.7869987487793
+Malawi,MWI,2009,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,47.3969993591309
+Malawi,MWI,2008,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,48.0499992370605
+Malawi,MWI,2007,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,48.5559997558594
+Malawi,MWI,2006,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,49.576000213623
+Malawi,MWI,2005,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,50.0929985046387
+Malawi,MWI,2004,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,50.4109992980957
+Malawi,MWI,2003,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,50.8380012512207
+Malawi,MWI,2002,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,51.4379997253418
+Malawi,MWI,2001,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,51.5340003967285
+Malawi,MWI,2000,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,50.9720001220703
+Malawi,MWI,1999,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,50.9189987182617
+Malawi,MWI,1998,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,50.9659996032715
+Malawi,MWI,1997,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,51.0769996643066
+Malawi,MWI,1996,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,51.3619995117188
+Malawi,MWI,1995,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,51.6520004272461
+Malawi,MWI,1994,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,52.4119987487793
+Malawi,MWI,1993,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,52.0859985351563
+Malawi,MWI,1992,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,52.5810012817383
+Malawi,MWI,1991,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,52.310001373291
+Malawi,MWI,2019,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,43.648998260498
+Malawi,MWI,2018,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,44.1300010681152
+Malawi,MWI,2017,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,44.6319999694824
+Malawi,MWI,2016,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,45.1669998168945
+Malawi,MWI,2015,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,45.5620002746582
+Malawi,MWI,2014,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,45.984001159668
+Malawi,MWI,2013,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,46.625
+Malawi,MWI,2012,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,47.226001739502
+Malawi,MWI,2011,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,47.5069999694824
+Malawi,MWI,2010,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,48.0730018615723
+Malawi,MWI,2009,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,48.8300018310547
+Malawi,MWI,2008,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,49.685001373291
+Malawi,MWI,2007,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,50.4440002441406
+Malawi,MWI,2006,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,51.4830017089844
+Malawi,MWI,2005,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,52.056999206543
+Malawi,MWI,2004,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,52.4710006713867
+Malawi,MWI,2003,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,53.0559997558594
+Malawi,MWI,2002,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,53.7109985351563
+Malawi,MWI,2001,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,53.9459991455078
+Malawi,MWI,2000,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,53.4910011291504
+Malawi,MWI,1999,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,53.6150016784668
+Malawi,MWI,1998,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,53.8279991149902
+Malawi,MWI,1997,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,54.0810012817383
+Malawi,MWI,1996,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,54.3769989013672
+Malawi,MWI,1995,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,54.7980003356934
+Malawi,MWI,1994,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,55.5130004882813
+Malawi,MWI,1993,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,55.3409996032715
+Malawi,MWI,1992,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,55.8139991760254
+Malawi,MWI,1991,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,55.6030006408691
+Malawi,MWI,2018,Rural population,SP.RUR.TOTL,15070382
+Malawi,MWI,2017,Rural population,SP.RUR.TOTL,14716853
+Malawi,MWI,2016,Rural population,SP.RUR.TOTL,14365384
+Malawi,MWI,2015,Rural population,SP.RUR.TOTL,14013642
+Malawi,MWI,2014,Rural population,SP.RUR.TOTL,13661711
+Malawi,MWI,2013,Rural population,SP.RUR.TOTL,13310371
+Malawi,MWI,2012,Rural population,SP.RUR.TOTL,12961589
+Malawi,MWI,2011,Rural population,SP.RUR.TOTL,12617250
+Malawi,MWI,2010,Rural population,SP.RUR.TOTL,12279575
+Malawi,MWI,2009,Rural population,SP.RUR.TOTL,11948322
+Malawi,MWI,2008,Rural population,SP.RUR.TOTL,11623954
+Malawi,MWI,2007,Rural population,SP.RUR.TOTL,11309182
+Malawi,MWI,2006,Rural population,SP.RUR.TOTL,11008962
+Malawi,MWI,2005,Rural population,SP.RUR.TOTL,10725241
+Malawi,MWI,2004,Rural population,SP.RUR.TOTL,10460991
+Malawi,MWI,2003,Rural population,SP.RUR.TOTL,10215154
+Malawi,MWI,2002,Rural population,SP.RUR.TOTL,9981682
+Malawi,MWI,2001,Rural population,SP.RUR.TOTL,9751725
+Malawi,MWI,2000,Rural population,SP.RUR.TOTL,9519924
+Malawi,MWI,1999,Rural population,SP.RUR.TOTL,9278057
+Malawi,MWI,1998,Rural population,SP.RUR.TOTL,9034490
+Malawi,MWI,1997,Rural population,SP.RUR.TOTL,8827614
+Malawi,MWI,1996,Rural population,SP.RUR.TOTL,8656783
+Malawi,MWI,1995,Rural population,SP.RUR.TOTL,8538750
+Malawi,MWI,1994,Rural population,SP.RUR.TOTL,8487814
+Malawi,MWI,1993,Rural population,SP.RUR.TOTL,8490908
+Malawi,MWI,1992,Rural population,SP.RUR.TOTL,8502541
+Malawi,MWI,1991,Rural population,SP.RUR.TOTL,8459353
+Malawi,MWI,1990,Rural population,SP.RUR.TOTL,8317340
+Malawi,MWI,1989,Rural population,SP.RUR.TOTL,8055205
+Malawi,MWI,1988,Rural population,SP.RUR.TOTL,7692354
+Malawi,MWI,1987,Rural population,SP.RUR.TOTL,7274847
+Malawi,MWI,1986,Rural population,SP.RUR.TOTL,6869086
+Malawi,MWI,1985,Rural population,SP.RUR.TOTL,6529593
+Malawi,MWI,1984,Rural population,SP.RUR.TOTL,6272952
+Malawi,MWI,1983,Rural population,SP.RUR.TOTL,6084076
+Malawi,MWI,1982,Rural population,SP.RUR.TOTL,5943464
+Malawi,MWI,1981,Rural population,SP.RUR.TOTL,5818405
+Malawi,MWI,1980,Rural population,SP.RUR.TOTL,5684775
+Malawi,MWI,1979,Rural population,SP.RUR.TOTL,5538360
+Malawi,MWI,1978,Rural population,SP.RUR.TOTL,5387612
+Malawi,MWI,1977,Rural population,SP.RUR.TOTL,5237988
+Malawi,MWI,1976,Rural population,SP.RUR.TOTL,5101167
+Malawi,MWI,1975,Rural population,SP.RUR.TOTL,4972750
+Malawi,MWI,1974,Rural population,SP.RUR.TOTL,4852703
+Malawi,MWI,1973,Rural population,SP.RUR.TOTL,4738356
+Malawi,MWI,1972,Rural population,SP.RUR.TOTL,4628756
+Malawi,MWI,1971,Rural population,SP.RUR.TOTL,4522684
+Malawi,MWI,1970,Rural population,SP.RUR.TOTL,4419062
+Malawi,MWI,1969,Rural population,SP.RUR.TOTL,4317668
+Malawi,MWI,1968,Rural population,SP.RUR.TOTL,4218657
+Malawi,MWI,1967,Rural population,SP.RUR.TOTL,4122097
+Malawi,MWI,1966,Rural population,SP.RUR.TOTL,4027644
+Malawi,MWI,1965,Rural population,SP.RUR.TOTL,3931541
+Malawi,MWI,1964,Rural population,SP.RUR.TOTL,3838817
+Malawi,MWI,1963,Rural population,SP.RUR.TOTL,3749250
+Malawi,MWI,1962,Rural population,SP.RUR.TOTL,3662831
+Malawi,MWI,1961,Rural population,SP.RUR.TOTL,3579516
+Malawi,MWI,1960,Rural population,SP.RUR.TOTL,3499311
+Malawi,MWI,2018,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.37380610080348
+Malawi,MWI,2017,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.4171875969988
+Malawi,MWI,2016,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.47901399740184
+Malawi,MWI,2015,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.54341812180658
+Malawi,MWI,2014,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.60535967236187
+Malawi,MWI,2013,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.65532143645967
+Malawi,MWI,2012,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.6925366147828
+Malawi,MWI,2011,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.71276122856766
+Malawi,MWI,2010,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.7346462891676
+Malawi,MWI,2009,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.75228811774012
+Malawi,MWI,2008,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.74530067938394
+Malawi,MWI,2007,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.69052937756594
+Malawi,MWI,2006,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.61097329369046
+Malawi,MWI,2005,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.49467394012315
+Malawi,MWI,2004,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.3780891998088
+Malawi,MWI,2003,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.31206908280222
+Malawi,MWI,2002,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.33074207591068
+Malawi,MWI,2001,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.40573268595062
+Malawi,MWI,2000,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.57347157020268
+Malawi,MWI,1999,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.66026745750846
+Malawi,MWI,1998,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.31647123753869
+Malawi,MWI,1997,Rural population growth (annual %),SP.RUR.TOTL.ZG,1.95415874264013
+Malawi,MWI,1996,Rural population growth (annual %),SP.RUR.TOTL.ZG,1.37285484353089
+Malawi,MWI,1995,Rural population growth (annual %),SP.RUR.TOTL.ZG,0.598313928168931
+Malawi,MWI,1994,Rural population growth (annual %),SP.RUR.TOTL.ZG,-0.0364456174528068
+Malawi,MWI,1993,Rural population growth (annual %),SP.RUR.TOTL.ZG,-0.136911604197013
+Malawi,MWI,1992,Rural population growth (annual %),SP.RUR.TOTL.ZG,0.509236684652644
+Malawi,MWI,1991,Rural population growth (annual %),SP.RUR.TOTL.ZG,1.69302009761785
+Malawi,MWI,1990,Rural population growth (annual %),SP.RUR.TOTL.ZG,3.20240258398982
+Malawi,MWI,1989,Rural population growth (annual %),SP.RUR.TOTL.ZG,4.60916178276934
+Malawi,MWI,1988,Rural population growth (annual %),SP.RUR.TOTL.ZG,5.58040665998665
+Malawi,MWI,1987,Rural population growth (annual %),SP.RUR.TOTL.ZG,5.73917267377284
+Malawi,MWI,1986,Rural population growth (annual %),SP.RUR.TOTL.ZG,5.06864415431763
+Malawi,MWI,1985,Rural population growth (annual %),SP.RUR.TOTL.ZG,4.00975563835567
+Malawi,MWI,1984,Rural population growth (annual %),SP.RUR.TOTL.ZG,3.0572191143359
+Malawi,MWI,1983,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.33827377176487
+Malawi,MWI,1982,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.12659591824993
+Malawi,MWI,1981,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.32346206177347
+Malawi,MWI,1980,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.60931205297369
+Malawi,MWI,1979,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.75961839762379
+Malawi,MWI,1978,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.81647889447385
+Malawi,MWI,1977,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.64681180485703
+Malawi,MWI,1976,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.5496330080548
+Malawi,MWI,1975,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.44371377108956
+Malawi,MWI,1974,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.38456291895136
+Malawi,MWI,1973,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.34020906114917
+Malawi,MWI,1972,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.31825265698688
+Malawi,MWI,1971,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.31781665474817
+Malawi,MWI,1970,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.32120146850498
+Malawi,MWI,1969,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.31986107374556
+Malawi,MWI,1968,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.3154816493998
+Malawi,MWI,1967,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.31804248375076
+Malawi,MWI,1966,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.41501286351176
+Malawi,MWI,1965,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.38672147658938
+Malawi,MWI,1964,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.36084262391069
+Malawi,MWI,1963,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.33194742934584
+Malawi,MWI,1962,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.30087499440509
+Malawi,MWI,1961,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.26615037685428
+Malawi,MWI,1960,Rural population growth (annual %),SP.RUR.TOTL.ZG,2.22833494873206
+Malawi,MWI,2018,Rural population (% of total population),SP.RUR.TOTL.ZS,83.063
+Malawi,MWI,2017,Rural population (% of total population),SP.RUR.TOTL.ZS,83.286
+Malawi,MWI,2016,Rural population (% of total population),SP.RUR.TOTL.ZS,83.494
+Malawi,MWI,2015,Rural population (% of total population),SP.RUR.TOTL.ZS,83.687
+Malawi,MWI,2014,Rural population (% of total population),SP.RUR.TOTL.ZS,83.868
+Malawi,MWI,2013,Rural population (% of total population),SP.RUR.TOTL.ZS,84.034
+Malawi,MWI,2012,Rural population (% of total population),SP.RUR.TOTL.ZS,84.188
+Malawi,MWI,2011,Rural population (% of total population),SP.RUR.TOTL.ZS,84.328
+Malawi,MWI,2010,Rural population (% of total population),SP.RUR.TOTL.ZS,84.456
+Malawi,MWI,2009,Rural population (% of total population),SP.RUR.TOTL.ZS,84.571
+Malawi,MWI,2008,Rural population (% of total population),SP.RUR.TOTL.ZS,84.674
+Malawi,MWI,2007,Rural population (% of total population),SP.RUR.TOTL.ZS,84.765
+Malawi,MWI,2006,Rural population (% of total population),SP.RUR.TOTL.ZS,84.856
+Malawi,MWI,2005,Rural population (% of total population),SP.RUR.TOTL.ZS,84.946
+Malawi,MWI,2004,Rural population (% of total population),SP.RUR.TOTL.ZS,85.036
+Malawi,MWI,2003,Rural population (% of total population),SP.RUR.TOTL.ZS,85.125
+Malawi,MWI,2002,Rural population (% of total population),SP.RUR.TOTL.ZS,85.214
+Malawi,MWI,2001,Rural population (% of total population),SP.RUR.TOTL.ZS,85.302
+Malawi,MWI,2000,Rural population (% of total population),SP.RUR.TOTL.ZS,85.39
+Malawi,MWI,1999,Rural population (% of total population),SP.RUR.TOTL.ZS,85.478
+Malawi,MWI,1998,Rural population (% of total population),SP.RUR.TOTL.ZS,85.616
+Malawi,MWI,1997,Rural population (% of total population),SP.RUR.TOTL.ZS,85.998
+Malawi,MWI,1996,Rural population (% of total population),SP.RUR.TOTL.ZS,86.371
+Malawi,MWI,1995,Rural population (% of total population),SP.RUR.TOTL.ZS,86.737
+Malawi,MWI,1994,Rural population (% of total population),SP.RUR.TOTL.ZS,87.093
+Malawi,MWI,1993,Rural population (% of total population),SP.RUR.TOTL.ZS,87.442
+Malawi,MWI,1992,Rural population (% of total population),SP.RUR.TOTL.ZS,87.782
+Malawi,MWI,1991,Rural population (% of total population),SP.RUR.TOTL.ZS,88.115
+Malawi,MWI,1990,Rural population (% of total population),SP.RUR.TOTL.ZS,88.44
+Malawi,MWI,1989,Rural population (% of total population),SP.RUR.TOTL.ZS,88.757
+Malawi,MWI,1988,Rural population (% of total population),SP.RUR.TOTL.ZS,89.066
+Malawi,MWI,1987,Rural population (% of total population),SP.RUR.TOTL.ZS,89.359
+Malawi,MWI,1986,Rural population (% of total population),SP.RUR.TOTL.ZS,89.6
+Malawi,MWI,1985,Rural population (% of total population),SP.RUR.TOTL.ZS,89.837
+Malawi,MWI,1984,Rural population (% of total population),SP.RUR.TOTL.ZS,90.069
+Malawi,MWI,1983,Rural population (% of total population),SP.RUR.TOTL.ZS,90.296
+Malawi,MWI,1982,Rural population (% of total population),SP.RUR.TOTL.ZS,90.519
+Malawi,MWI,1981,Rural population (% of total population),SP.RUR.TOTL.ZS,90.737
+Malawi,MWI,1980,Rural population (% of total population),SP.RUR.TOTL.ZS,90.95
+Malawi,MWI,1979,Rural population (% of total population),SP.RUR.TOTL.ZS,91.159
+Malawi,MWI,1978,Rural population (% of total population),SP.RUR.TOTL.ZS,91.364
+Malawi,MWI,1977,Rural population (% of total population),SP.RUR.TOTL.ZS,91.606
+Malawi,MWI,1976,Rural population (% of total population),SP.RUR.TOTL.ZS,91.985
+Malawi,MWI,1975,Rural population (% of total population),SP.RUR.TOTL.ZS,92.348
+Malawi,MWI,1974,Rural population (% of total population),SP.RUR.TOTL.ZS,92.696
+Malawi,MWI,1973,Rural population (% of total population),SP.RUR.TOTL.ZS,93.03
+Malawi,MWI,1972,Rural population (% of total population),SP.RUR.TOTL.ZS,93.349
+Malawi,MWI,1971,Rural population (% of total population),SP.RUR.TOTL.ZS,93.655
+Malawi,MWI,1970,Rural population (% of total population),SP.RUR.TOTL.ZS,93.947
+Malawi,MWI,1969,Rural population (% of total population),SP.RUR.TOTL.ZS,94.227
+Malawi,MWI,1968,Rural population (% of total population),SP.RUR.TOTL.ZS,94.495
+Malawi,MWI,1967,Rural population (% of total population),SP.RUR.TOTL.ZS,94.751
+Malawi,MWI,1966,Rural population (% of total population),SP.RUR.TOTL.ZS,94.982
+Malawi,MWI,1965,Rural population (% of total population),SP.RUR.TOTL.ZS,95.092
+Malawi,MWI,1964,Rural population (% of total population),SP.RUR.TOTL.ZS,95.2
+Malawi,MWI,1963,Rural population (% of total population),SP.RUR.TOTL.ZS,95.306
+Malawi,MWI,1962,Rural population (% of total population),SP.RUR.TOTL.ZS,95.41
+Malawi,MWI,1961,Rural population (% of total population),SP.RUR.TOTL.ZS,95.511
+Malawi,MWI,1960,Rural population (% of total population),SP.RUR.TOTL.ZS,95.61
+Malawi,MWI,2017,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,2.29623237779979
+Malawi,MWI,2016,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,2.09045991027807
+Malawi,MWI,2015,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,2.29604766533128
+Malawi,MWI,2014,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.98508957024813
+Malawi,MWI,2013,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.50775058582002
+Malawi,MWI,2012,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.2421484363983
+Malawi,MWI,2011,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.2081166432084
+Malawi,MWI,2010,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.12755317112646
+Malawi,MWI,2009,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.997537605700524
+Malawi,MWI,2008,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.83645339011282
+Malawi,MWI,2007,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.968171609640315
+Malawi,MWI,2006,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.996190862905663
+Malawi,MWI,2005,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.02155320668068
+Malawi,MWI,2004,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.07709974367649
+Malawi,MWI,2003,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.3412475157458
+Malawi,MWI,2002,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.05780367345761
+Malawi,MWI,2001,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.71088980077957
+Malawi,MWI,2000,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.53114249001221
+Malawi,MWI,1999,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.289776004829
+Malawi,MWI,1995,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.599711564385196
+Malawi,MWI,1994,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.653619032829518
+Malawi,MWI,1991,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.435214480668499
+Malawi,MWI,1990,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.804749852568347
+Malawi,MWI,1988,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.856663117955072
+Malawi,MWI,1987,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.425578184875773
+Malawi,MWI,1986,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.938404930334467
+Malawi,MWI,1985,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.45668060472237
+Malawi,MWI,1984,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,2.11432798587598
+Malawi,MWI,1983,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.54124173873408
+Malawi,MWI,1982,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.25966659796109
+Malawi,MWI,1981,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.828743504179498
+Malawi,MWI,1980,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.03293815360719
+Malawi,MWI,1979,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.696373194404313
+Malawi,MWI,1978,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.584171020959925
+Malawi,MWI,1977,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.652432333860497
+Malawi,MWI,1976,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.810870533147592
+Malawi,MWI,1975,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.08770017076581
+Malawi,MWI,1974,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.03773208073046
+Malawi,MWI,1973,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.08455733770646
+Malawi,MWI,1972,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.89569550774298
+Malawi,MWI,1971,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.0173532936979
+Malawi,MWI,1970,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.10535522305612
+Malawi,MWI,1969,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.37968866058306
+Malawi,MWI,1968,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.15188140773397
+Malawi,MWI,1967,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,1.01028713301002
+Malawi,MWI,1966,Agricultural raw materials imports (% of merchandise imports),TM.VAL.AGRI.ZS.UN,0.61021914360944
+Malawi,MWI,2017,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.63193457016592
+Malawi,MWI,2016,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.05743415138729
+Malawi,MWI,2015,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.98339674995951
+Malawi,MWI,2014,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.9063416947378
+Malawi,MWI,2013,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,4.62005646248094
+Malawi,MWI,2012,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,7.00280974295968
+Malawi,MWI,2011,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,5.1049125422754
+Malawi,MWI,2010,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.34769408053487
+Malawi,MWI,2009,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.82171385808646
+Malawi,MWI,2008,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,4.12185394518794
+Malawi,MWI,2007,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.81697794486235
+Malawi,MWI,2006,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.3349284384033
+Malawi,MWI,2005,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.79608345261069
+Malawi,MWI,2004,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,5.61636258469468
+Malawi,MWI,2003,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.99505772823701
+Malawi,MWI,2002,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.75354702067539
+Malawi,MWI,2001,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.47569285568124
+Malawi,MWI,2000,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.92736665510437
+Malawi,MWI,1999,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.08656834077932
+Malawi,MWI,1998,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.43801634821947
+Malawi,MWI,1997,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.66326820085238
+Malawi,MWI,1996,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,4.09504780855225
+Malawi,MWI,1995,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.07845579885383
+Malawi,MWI,1994,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.80465680309435
+Malawi,MWI,1991,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.9219245574984
+Malawi,MWI,1990,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.90557248780452
+Malawi,MWI,1988,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,0.789938723842559
+Malawi,MWI,1987,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.01718341258606
+Malawi,MWI,1986,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.30745896184724
+Malawi,MWI,1985,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.84127796885796
+Malawi,MWI,1984,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.14804474995674
+Malawi,MWI,1983,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,0.441240106567624
+Malawi,MWI,1982,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,0.482290322957639
+Malawi,MWI,1981,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,0.971701086811982
+Malawi,MWI,1980,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.39545068069638
+Malawi,MWI,1979,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.47314126357423
+Malawi,MWI,1978,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,0.88607015103094
+Malawi,MWI,1977,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.72911207430077
+Malawi,MWI,1976,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,1.91373529546577
+Malawi,MWI,1975,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,2.17292646299299
+Malawi,MWI,1974,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.58834209365022
+Malawi,MWI,1973,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,3.87196106934271
+Malawi,MWI,1972,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,5.31986585662144
+Malawi,MWI,1971,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,5.65828344187816
+Malawi,MWI,1970,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,7.67130913534828
+Malawi,MWI,1969,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,5.37483642441232
+Malawi,MWI,1968,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,4.71261125378502
+Malawi,MWI,1967,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,4.91797250065362
+Malawi,MWI,1966,Agricultural raw materials exports (% of merchandise exports),TX.VAL.AGRI.ZS.UN,8.76439709588316
+Malawi,MWI,2012,Economically active population in agriculture (number),EN.AGR.EMPL,5221000
+Malawi,MWI,2011,Economically active population in agriculture (number),EN.AGR.EMPL,5060000
+Malawi,MWI,2010,Economically active population in agriculture (number),EN.AGR.EMPL,4909000
+Malawi,MWI,2009,Economically active population in agriculture (number),EN.AGR.EMPL,4767000
+Malawi,MWI,2008,Economically active population in agriculture (number),EN.AGR.EMPL,4635000
+Malawi,MWI,2007,Economically active population in agriculture (number),EN.AGR.EMPL,4511000
+Malawi,MWI,2006,Economically active population in agriculture (number),EN.AGR.EMPL,4390000
+Malawi,MWI,2005,Economically active population in agriculture (number),EN.AGR.EMPL,4294000
+Malawi,MWI,2004,Economically active population in agriculture (number),EN.AGR.EMPL,4206000
+Malawi,MWI,2003,Economically active population in agriculture (number),EN.AGR.EMPL,4127000
+Malawi,MWI,2002,Economically active population in agriculture (number),EN.AGR.EMPL,4054000
+Malawi,MWI,2001,Economically active population in agriculture (number),EN.AGR.EMPL,3982000
+Malawi,MWI,2000,Economically active population in agriculture (number),EN.AGR.EMPL,3907000
+Malawi,MWI,1999,Economically active population in agriculture (number),EN.AGR.EMPL,3829000
+Malawi,MWI,1998,Economically active population in agriculture (number),EN.AGR.EMPL,3749000
+Malawi,MWI,1997,Economically active population in agriculture (number),EN.AGR.EMPL,3677000
+Malawi,MWI,1996,Economically active population in agriculture (number),EN.AGR.EMPL,3615000
+Malawi,MWI,1995,Economically active population in agriculture (number),EN.AGR.EMPL,3566000
+Malawi,MWI,1994,Economically active population in agriculture (number),EN.AGR.EMPL,3536000
+Malawi,MWI,1993,Economically active population in agriculture (number),EN.AGR.EMPL,3519000
+Malawi,MWI,1992,Economically active population in agriculture (number),EN.AGR.EMPL,3500000
+Malawi,MWI,1991,Economically active population in agriculture (number),EN.AGR.EMPL,3458000
+Malawi,MWI,1990,Economically active population in agriculture (number),EN.AGR.EMPL,3377000
+Malawi,MWI,1989,Economically active population in agriculture (number),EN.AGR.EMPL,3241000
+Malawi,MWI,1988,Economically active population in agriculture (number),EN.AGR.EMPL,3068000
+Malawi,MWI,1987,Economically active population in agriculture (number),EN.AGR.EMPL,2879000
+Malawi,MWI,1986,Economically active population in agriculture (number),EN.AGR.EMPL,2812000
+Malawi,MWI,1985,Economically active population in agriculture (number),EN.AGR.EMPL,2759000
+Malawi,MWI,1984,Economically active population in agriculture (number),EN.AGR.EMPL,2728000
+Malawi,MWI,1983,Economically active population in agriculture (number),EN.AGR.EMPL,2714000
+Malawi,MWI,1982,Economically active population in agriculture (number),EN.AGR.EMPL,2650000
+Malawi,MWI,1981,Economically active population in agriculture (number),EN.AGR.EMPL,2591000
+Malawi,MWI,1980,Economically active population in agriculture (number),EN.AGR.EMPL,2524000

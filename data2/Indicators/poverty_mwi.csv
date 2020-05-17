@@ -1,0 +1,75 @@
+Country Name,Country ISO3,Year,Indicator Name,Indicator Code,Value
+#country+name,#country+code,#date+year,#indicator+name,#indicator+code,#indicator+value+num
+Malawi,MWI,2014,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.7
+Malawi,MWI,2009,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,68.9
+Malawi,MWI,2007,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,67.7
+Malawi,MWI,2005,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,2000,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,1995,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,1990,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,66.4
+Malawi,MWI,2016,Income share held by second 20%,SI.DST.02ND.20,9.8
+Malawi,MWI,2010,Income share held by second 20%,SI.DST.02ND.20,9.3
+Malawi,MWI,2004,Income share held by second 20%,SI.DST.02ND.20,10.7
+Malawi,MWI,1997,Income share held by second 20%,SI.DST.02ND.20,6
+Malawi,MWI,2016,Income share held by third 20%,SI.DST.03RD.20,13.3
+Malawi,MWI,2010,Income share held by third 20%,SI.DST.03RD.20,13.4
+Malawi,MWI,2004,Income share held by third 20%,SI.DST.03RD.20,14.5
+Malawi,MWI,1997,Income share held by third 20%,SI.DST.03RD.20,8.1
+Malawi,MWI,2016,Income share held by fourth 20%,SI.DST.04TH.20,18.8
+Malawi,MWI,2010,Income share held by fourth 20%,SI.DST.04TH.20,20
+Malawi,MWI,2004,Income share held by fourth 20%,SI.DST.04TH.20,20.3
+Malawi,MWI,1997,Income share held by fourth 20%,SI.DST.04TH.20,11.7
+Malawi,MWI,2016,Income share held by highest 20%,SI.DST.05TH.20,51.7
+Malawi,MWI,2010,Income share held by highest 20%,SI.DST.05TH.20,51.8
+Malawi,MWI,2004,Income share held by highest 20%,SI.DST.05TH.20,47.5
+Malawi,MWI,1997,Income share held by highest 20%,SI.DST.05TH.20,70.3
+Malawi,MWI,2016,Income share held by highest 10%,SI.DST.10TH.10,38.1
+Malawi,MWI,2010,Income share held by highest 10%,SI.DST.10TH.10,36.9
+Malawi,MWI,2004,Income share held by highest 10%,SI.DST.10TH.10,32.8
+Malawi,MWI,1997,Income share held by highest 10%,SI.DST.10TH.10,61.5
+Malawi,MWI,2016,Income share held by lowest 10%,SI.DST.FRST.10,2.6
+Malawi,MWI,2010,Income share held by lowest 10%,SI.DST.FRST.10,2.2
+Malawi,MWI,2004,Income share held by lowest 10%,SI.DST.FRST.10,2.9
+Malawi,MWI,1997,Income share held by lowest 10%,SI.DST.FRST.10,1.6
+Malawi,MWI,2016,Income share held by lowest 20%,SI.DST.FRST.20,6.4
+Malawi,MWI,2010,Income share held by lowest 20%,SI.DST.FRST.20,5.5
+Malawi,MWI,2004,Income share held by lowest 20%,SI.DST.FRST.20,6.9
+Malawi,MWI,1997,Income share held by lowest 20%,SI.DST.FRST.20,3.9
+Malawi,MWI,2016,Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population),SI.POV.DDAY,70.3
+Malawi,MWI,2010,Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population),SI.POV.DDAY,71.7
+Malawi,MWI,2004,Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population),SI.POV.DDAY,73.4
+Malawi,MWI,1997,Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population),SI.POV.DDAY,63.3
+Malawi,MWI,2016,Poverty gap at $1.90 a day (2011 PPP) (%),SI.POV.GAPS,29.4
+Malawi,MWI,2010,Poverty gap at $1.90 a day (2011 PPP) (%),SI.POV.GAPS,34
+Malawi,MWI,2004,Poverty gap at $1.90 a day (2011 PPP) (%),SI.POV.GAPS,31.5
+Malawi,MWI,1997,Poverty gap at $1.90 a day (2011 PPP) (%),SI.POV.GAPS,24.7
+Malawi,MWI,2016,GINI index (World Bank estimate),SI.POV.GINI,44.7
+Malawi,MWI,2010,GINI index (World Bank estimate),SI.POV.GINI,45.5
+Malawi,MWI,2004,GINI index (World Bank estimate),SI.POV.GINI,39.9
+Malawi,MWI,1997,GINI index (World Bank estimate),SI.POV.GINI,65.8
+Malawi,MWI,2016,Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population),SI.POV.LMIC,89.4
+Malawi,MWI,2010,Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population),SI.POV.LMIC,89.1
+Malawi,MWI,2004,Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population),SI.POV.LMIC,90.6
+Malawi,MWI,1997,Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population),SI.POV.LMIC,84.8
+Malawi,MWI,2016,Poverty gap at $3.20 a day (2011 PPP) (%),SI.POV.LMIC.GP,50.8
+Malawi,MWI,2010,Poverty gap at $3.20 a day (2011 PPP) (%),SI.POV.LMIC.GP,53.6
+Malawi,MWI,2004,Poverty gap at $3.20 a day (2011 PPP) (%),SI.POV.LMIC.GP,52.7
+Malawi,MWI,1997,Poverty gap at $3.20 a day (2011 PPP) (%),SI.POV.LMIC.GP,45.6
+Malawi,MWI,2016,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,51.5
+Malawi,MWI,2010,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,50.7
+Malawi,MWI,2004,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,52.4
+Malawi,MWI,1997,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,65.3
+Malawi,MWI,2016,Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population),SI.POV.UMIC,96.7
+Malawi,MWI,2010,Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population),SI.POV.UMIC,96.2
+Malawi,MWI,2004,Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population),SI.POV.UMIC,97.1
+Malawi,MWI,1997,Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population),SI.POV.UMIC,93.6
+Malawi,MWI,2016,Poverty gap at $5.50 a day (2011 PPP) (%),SI.POV.UMIC.GP,68.9
+Malawi,MWI,2010,Poverty gap at $5.50 a day (2011 PPP) (%),SI.POV.UMIC.GP,70.3
+Malawi,MWI,2004,Poverty gap at $5.50 a day (2011 PPP) (%),SI.POV.UMIC.GP,70.3
+Malawi,MWI,1997,Poverty gap at $5.50 a day (2011 PPP) (%),SI.POV.UMIC.GP,64.3
+Malawi,MWI,2016,"Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day)",SI.SPR.PC40,0.82
+Malawi,MWI,2010,"Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day)",SI.SPR.PC40,0.68
+Malawi,MWI,2016,"Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%)",SI.SPR.PC40.ZG,3.05
+Malawi,MWI,2016,"Survey mean consumption or income per capita, total population (2011 PPP $ per day)",SI.SPR.PCAP,2.03
+Malawi,MWI,2010,"Survey mean consumption or income per capita, total population (2011 PPP $ per day)",SI.SPR.PCAP,1.84
+Malawi,MWI,2016,"Annualized average growth rate in per capita real survey mean consumption or income, total population (%)",SI.SPR.PCAP.ZG,1.57
